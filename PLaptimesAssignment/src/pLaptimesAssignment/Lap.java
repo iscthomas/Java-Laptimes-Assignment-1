@@ -7,13 +7,13 @@ public class Lap implements Comparable<Lap>{
 	private String length;
 	private String time;
 	private Type type; //make enum
-	private String manufacturer; //make enum
+	private Manufacturer manufacturer; //make enum
 	private String model;
 	private String driver;
 	private LocalDate date; //make LocalDate
 
 
-		Lap(String length, String time, Type type, String manufacturer, String model, String driver, LocalDate date) {
+		Lap(String length, String time, Type type, Manufacturer manufacturer, String model, String driver, LocalDate date) {
 			
 			this.length = length;
 			this.time = time;
@@ -27,7 +27,7 @@ public class Lap implements Comparable<Lap>{
 		public void setLength(String length){this.length = length;}
 		public void setTime(String time){this.time = time;}
 		public void setType(Type type) {this.type = type;}
-		public void setManufacturer(String manufacturer) {this.manufacturer = manufacturer;}
+		public void setManufacturer(Manufacturer manufacturer) {this.manufacturer = manufacturer;}
 		public void setModel(String model){this.model = model;}
 		public void setDriver(String driver){this.driver = driver;}
 		public void setDate(LocalDate date){this.date = date;}
@@ -35,7 +35,7 @@ public class Lap implements Comparable<Lap>{
 		public String getLength(){return length;}
 		public String getTime(){return time;}
 		public Type getType() {return type;}
-		public String getManufacturer() {return manufacturer;}
+		public Manufacturer getManufacturer() {return manufacturer;}
 		public String getModel(){return model;}
 		public String getDriver(){return driver;}
 		public LocalDate getDate(){return date;}

@@ -110,7 +110,7 @@ public class LapGUI extends JFrame implements ActionListener {
 		textField.setText(laptimes.get(0).getLength());
 		textField_1.setText(laptimes.get(0).getTime());
 		//textField_2.setText(laptimes.get(0).getType());
-		textField_3.setText(laptimes.get(0).getManufacturer());
+		//textField_3.setText(laptimes.get(0).getManufacturer());
 		textField_4.setText(laptimes.get(0).getModel());
 		
 		JPanel panel_1 = new JPanel();

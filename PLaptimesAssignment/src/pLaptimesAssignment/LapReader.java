@@ -19,7 +19,7 @@ public class LapReader {
 		String length;
 		String time;
 		Type type; //make enum
-		String manufacturer; //make enum
+		Manufacturer manufacturer; //make enum
 		String model;
 		String driver;
 		LocalDate date;
@@ -32,7 +32,7 @@ public class LapReader {
 				length = fields[0];
 				time = fields[1];
 				type = Type.valueOf(fields[2]);
-				manufacturer = fields[3];
+				manufacturer = Manufacturer.valueOf(fields[3]);
 				model = fields[4];
 				driver = fields[5];
 				date = LocalDate.parse(fields[6], DateTimeFormatter.ofPattern("yyyy-MM-dd"));
