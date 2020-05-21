@@ -25,12 +25,13 @@ public class LapReader {
 		String line;
 		
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("LaptimesV1.csv"));
+			BufferedReader in = new BufferedReader(new FileReader("LaptimesV4.csv"));
 			while ((line = in.readLine()) != null) {
 				String[] fields = line.split(",");
 				length = fields[0];
 				time = fields[1];
 				type = fields[2];
+//				type = type.copyValueOf(Type)fields[2];
 				manufacturer = fields[3];
 				model = fields[4];
 				driver = fields[5];

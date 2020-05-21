@@ -24,21 +24,21 @@ public class Lap implements Comparable<Lap>{
 			this.date = date;
 			}
 		
-		public void setLength(String length){ this.length = length;}
-		public void setTime(String time){ this.time = time;}
+		public void setLength(String length){this.length = length;}
+		public void setTime(String time){this.time = time;}
 		public void setType(String type) {this.type = type;}
 		public void setManufacturer(String manufacturer) {this.manufacturer = manufacturer;}
-		public void setModel(String model){ this.model = model;}
-		public void setDriver(String driver){ this.driver = driver;}
-		public void setDate(String date){ this.date = date;}
+		public void setModel(String model){this.model = model;}
+		public void setDriver(String driver){this.driver = driver;}
+		public void setDate(String date){this.date = date;}
 		
-		public String getLength(){ return length;}
-		public String getTime(){ return time;}
+		public String getLength(){return length;}
+		public String getTime(){return time;}
 		public String getType() {return type;}
 		public String getManufacturer() {return manufacturer;}
-		public String getModel(){ return model;}
-		public String getDriver(){ return driver;}
-		public String getDate(){ return date;}
+		public String getModel(){return model;}
+		public String getDriver(){return driver;}
+		public String getDate(){return date;}
 	        
 	    public String toString(){
 	        return length +" "+ time +" "+ type +" "+ manufacturer + " "+ model + " "+ driver + " "+ date + "\n";

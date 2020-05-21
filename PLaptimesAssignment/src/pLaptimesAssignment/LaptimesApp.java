@@ -15,7 +15,7 @@ public class LaptimesApp {
 		ArrayList<Lap> laptimes = new ArrayList<Lap>();
 		LapReader.load(laptimes);
 		
-		//Complex gui = new ComplexGui (laptimes);
-		//gui.setVisible(true);
+		LapGUI gui = new LapGUI (laptimes);
+		gui.setVisible(true);
 	}
 }
