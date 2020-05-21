@@ -4,6 +4,7 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 
 
@@ -17,11 +18,11 @@ public class LapReader {
 	public static void load(ArrayList<Lap> laptimes) {
 		String length;
 		String time;
-		String type; //make enum
+		Type type; //make enum
 		String manufacturer; //make enum
 		String model;
 		String driver;
-		String date; //make LocalDate
+		LocalDate date;
 		String line;
 		
 		try {
@@ -30,12 +31,11 @@ public class LapReader {
 				String[] fields = line.split(",");
 				length = fields[0];
 				time = fields[1];
-				type = fields[2];
-//				type = type.copyValueOf(Type)fields[2];
+				type = Type.valueOf(fields[2]);
 				manufacturer = fields[3];
 				model = fields[4];
 				driver = fields[5];
-				date = fields[6];
+				date = LocalDate.parse(fields[6], DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 				laptimes.add(new Lap(length, time, type, manufacturer, model, driver, date));
 			}
 		}catch (IOException e)

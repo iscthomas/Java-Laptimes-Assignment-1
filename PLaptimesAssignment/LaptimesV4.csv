@@ -8,12 +8,12 @@
 20.6 km,06:59.7,Production,Lamborghini,Lamborghini Aventador LP 750-4 Superveloce (2015),Marco Mapelli,2015-05-18,Lamborghini conducted test full roll cage Pirelli P Zero Corsa.[55][56]
 20.6 km,07:00.0,Production,Ferrari,Ferrari 488 Pista,Christian Gebhardt,2019-10-16,Michelin Pilot Sport Cup 2 R K1[57]
 20.6 km,07:01.3,Production,Dodge,Dodge Viper ACR (2017),Lance David Arnold,2017-09-01,"OEM ""GTS-R Commemorative Edition"" ""Extreme Aero Package"" Kumho Ecsta V720 ACR. Privately funded and observed by Road & Track. Third attempt testing ended by tyre failure resulting in crash.[58][59]"
-20.6 km,07:04.6,Production,Mercedes-Benz,Mercedes-AMG GT R Pro,Maro Engel,2018-11-01,Mercedes-Benz conducted test (11/2018). Ambient temperature of 12Â Â°C (54Â Â°F). Vehicle in accordance with regulations. Timed by wige SOLUTIONS.[60][61][62][63][tire information missing]
+20.6 km,07:04.6,Production,Mercedes_Benz,Mercedes-AMG GT R Pro,Maro Engel,2018-11-01,Mercedes_Benz conducted test (11/2018). Ambient temperature of 12Â Â°C (54Â Â°F). Vehicle in accordance with regulations. Timed by wige SOLUTIONS.[60][61][62][63][tire information missing]
 20.6 km,07:05.4,Production,Porsche,Porsche 911 GT3 RS (991.2),Christian Gebhardt,2018-09-01,Sport Auto (09/2018) OEM deletion of audio and communication system Porsche Motorsport bucket seat and harness on driver's side.[64][65]
 20.6 km,07:08.3,Production,McLaren,McLaren 720S,Christian Gebhardt,2019-02-01,Sport Auto (2/2019) Pirelli P Zero Corsa.[66][67]
 20.6 km,07:08.7,Production,Nissan,Nissan GT-R NISMO (2015),Michael Krumm,2013-09-30,"Nissan conducted test. Pre-production NISMO ""N Attack Package"" (available on order from NISMO Japan in 2015) 255/40RF-20 run-flat Dunlop SP Sport Maxx GT 600 DSST.[68][69][70][71]"
 20.6 km,07:08.8,Production,McLaren,McLaren 600LT,Christian Gebhardt,2019-09-01,Sport Auto (9/2019) Pirelli P Zero Trofeo R MC.[72]
-20.6 km,07:10.9,Production,Mercedes-Benz,Mercedes-AMG GT R (2017),Christian Gebhardt,2016-12-01,Sport Auto (1/2017) Michelin Pilot Sport Cup 2 'ZP'.[73][74][75]
+20.6 km,07:10.9,Production,Mercedes_Benz,Mercedes-AMG GT R (2017),Christian Gebhardt,2016-12-01,Sport Auto (1/2017) Michelin Pilot Sport Cup 2 'ZP'.[73][74][75]
 20.6 km,07:11.6,Production,Gumpert,Gumpert Apollo Sport,Florian Gruber,2009-08-13,Observed by Sport Auto Michelin Pilot Sport Cup.[76][77][78]
 20.6 km,07:12.1,Production,Dodge,Dodge Viper ACR (2010),Dominik Farnbacher,2011-09-14,SRT Viper Club of America and ViperExchange conducted test. Michelin Pilot Sport Cup.[79][80][81]
 20.6 km,07:12.7,Production,Porsche,Porsche 911 GT3 (991.2),Lars Kern,2017-05-04,"Porsche conducted test. Michelin Pilot Sport Cup 2 PDK carbon ceramic brakes OEM deletion of audio and communication system ""Clubsport Package"" Porsche Motorsport bucket seat and harness on driver's side.[82][83]"
@@ -42,8 +42,8 @@
 20.6 km,07:24.4,Production,Pagani,Pagani Zonda F Clubsport,Marc Basseng,2008-08-01,Evo Magazine conducted test[117]
 20.6 km,7:25,Production,Lamborghini,Lamborghini Aventador LP 700-4,Horst von Saurma,2012-08-01,Sport Auto (08/2012) Pirelli P Zero Corsa.[118]
 20.6 km,07:25.2,Production,Ferrari,Enzo Ferrari,Marc Basseng,2008-08-01,Evo Magazine conducted test[119]
-20.6 km,07:25.4,Production,Mercedes-Benz,Mercedes-AMG GT 4-Door Coupe 63 S 4MATIC+,Demian Schaffert,2018-10-01,Mercedes-AMG conducted test.[120][121]
-20.6 km,07:25.7,Production,Mercedes-Benz,Mercedes-Benz SLS AMG Black Series,n/a,2013-08-01,Mercedes-AMG conducted test.[122]
+20.6 km,07:25.4,Production,Mercedes_Benz,Mercedes-AMG GT 4-Door Coupe 63 S 4MATIC+,Demian Schaffert,2018-10-01,Mercedes-AMG conducted test.[120][121]
+20.6 km,07:25.7,Production,Mercedes_Benz,Mercedes_Benz SLS AMG Black Series,n/a,2013-08-01,Mercedes-AMG conducted test.[122]
 20.6 km,07:25.7,Production,KTM,KTM X-Bow RR,Christopher Haase,2012-01-01,Michelin Pilot Sport Cup.[123]
 20.6 km,07:26.4,Production,Chevrolet,Chevrolet Corvette C6 ZR1 (2009),Jim Mero,2008-06-27,General Motors conducted test Michelin Pilot Sport 2.[124]
 20.6 km,07:26.7,Production,Nissan,Nissan GT-R (2009),Toshio Suzuki,2009-04-23,Nissan Motors conducted test optional tyres. Best Motoring (08/2009).[125]
@@ -57,12 +57,12 @@ n/a,07:28.0,Production,Porsche,Porsche Carrera GT (980),Walter Rohrl,2004-07-02,
 20.6 km,07:29.0,Production,Nissan,Nissan GT-R (2009),Toshio Suzuki,2008-04-17,Nissan Motors conducted test.[138][139][140] The test used a stock GT-R.
 20.6 km,07:29.6,Production,Chevrolet,Chevrolet Camaro ZL1 (2017),Drew Cattell,2016-10-24,Goodyear Eagle F1.[141]
 20.6 km,07:29.9,Production,Chevrolet,Chevrolet Corvette (C8) (2020),Oliver Gavin,2020-05-02,General Motors conducted test. Z51 performance package[142]
-n/a,07:30.0,Production,Mercedes-Benz,Mercedes-Benz SLS AMG GT (2012),n/a,2012-01-01,According to AMG chairman Ola KÃ¤llenius as reported by Auto Blog. No video or press release.[143][144]
+n/a,07:30.0,Production,Mercedes_Benz,Mercedes_Benz SLS AMG GT (2012),n/a,2012-01-01,According to AMG chairman Ola KÃ¤llenius as reported by Auto Blog. No video or press release.[143][144]
 20.6 km,07:30.4,Production,Porsche,Porsche 911 Carrera S (992),Christian Gebhardt,2019-10-01,Sport Auto (10/2019) Pirelli P Zero NA1 Porsche Motorsport bucket seat and harness on driver's side.[145]
 n/a,07:32.0,Production,Porsche,Porsche 911 GT2 (997 2007),Walter Rohrl,2007-01-01,Porsche conducted test R compound used.[146][citation needed]
 20.6 km,7:32,Production,Porsche,Porsche 911 GT3 (991),Horst von Saurma,2013-11-01,Sport Auto (11/2013) Michelin Pilot Sport Cup 2.[109][147]
 20.6 km,7:32,Production,Audi,Audi R8 V10 Plus (4S 2015),Christian Gebhardt,2015-10-01,Sport Auto (10/2015) Michelin Pilot Sport Cup 2.[148]
-20.6 km,7:32,Production,Alfa Romeo,Alfa Romeo Giulia Quadrifoglio (2015),Fabio Francia,2016-09-01,Alfa Romeo Giulia Quadrifoglio with automatic transmission[149]
+20.6 km,7:32,Production,Alfa_Romeo,Alfa_Romeo Giulia Quadrifoglio (2015),Fabio Francia,2016-09-01,Alfa_Romeo Giulia Quadrifoglio with automatic transmission[149]
 20.6 km,07:32.4,Production,Porsche,Porsche Carrera GT (980),Horst von Saurma,2003-01-01,Sport Auto (01/2004) Michelin Pilot Sport.[150]
 20.6 km,7:33,Production,Pagani ,Pagani Zonda F,Horst von Saurma,2006-05-01,Sport Auto (05/2006) Michelin Pilot Sport 2 N0/1.[151]
 20.6 km,7:33,Production,Porsche,Porsche 911 GT3 RS (997.2),Horst von Saurma,2010-05-01,Sport Auto (05/2010) PCCB  [152]
@@ -74,7 +74,7 @@ n/a,7:34,Production,Porsche,Porsche 911 GT2 (997),n/a,2008-09-01,Porsche conduct
 20.6 km,7:34,Production,Lexus,Lexus LFA Nurburgring Package,Horst von Saurma,2012-02-01,Sport Auto (02/2012) Potenza RE070.[158]
 20.6 km,7:34,Production,Porsche,Porsche 911 Turbo S (991),Horst von Saurma,2014-02-01,Sport Auto (2/2014) Dunlop SportMaxx Race.[159]
 20.6 km,7:34,Production,Porsche,Porsche 911 Carrera S (991.2),Christian Gebhardt,2016-05-01,Sport Auto (6/2016) Pirelli P Zero N1.[160][161]
-n/a,7:35,Production,Mercedes-Benz,Mercedes-AMG GT S,n/a,2014-09-09,Autoweek [162] and Fastest Laps [163]
+n/a,7:35,Production,Mercedes_Benz,Mercedes-AMG GT S,n/a,2014-09-09,Autoweek [162] and Fastest Laps [163]
 20.6 km,7:35,Production,Ruf,Ruf Rt 12,Horst von Saurma,2008-02-01,Sport Auto (02/2008) Michelin Pilot Sport Cup.[164][165]
 20.6 km,7:35,Production,McLaren,McLaren 650S Spider,Horst von Saurma,2015-03-01,Sport Auto (03/2015) Pirelli P Zero Corsa.[166]
 20.6 km,07:35.9,Production,BMW,BMW M5 Competition (F90),Christian Gebhardt,2019-07-01,Sport Auto (7/2019) Pirelli P Zero.[167][168]
@@ -96,9 +96,9 @@ n/a,7:39,Production,Porsche,Porsche 911 Turbo (997 2010),n/a,2009-10-12,Porsche 
 20.6 km,7:39,Production,Ferrari,Ferrari 430 Scuderia,Horst von Saurma,2008-07-01,Sport Auto (07/2008) Pirelli P Zero Corsa.[184]
 20.832 km,7:40,Production,Bugatti,Bugatti Veyron 16.4,n/a,2005-01-01,Wheels Magazine Australia 2005[185][186]
 20.6 km,7:40,Production,Lamborghini,Lamborghini Murcielago LP 640,Giorgio Sanna,2007-01-01,Lamborghini Auto Bild (01/2007)[citation needed]
-20.6 km,7:40,Production,Mercedes-Benz,Mercedes-Benz SLR McLaren,Klaus Ludwig,2004-07-01,Auto Bild(07/2004)[132]
+20.6 km,7:40,Production,Mercedes_Benz,Mercedes_Benz SLR McLaren,Klaus Ludwig,2004-07-01,Auto Bild(07/2004)[132]
 20.6 km,7:40,Production,Porsche,Porsche 911 GT3 (997.2),Horst von Saurma,2009-06-01,Sport Auto (06/2009) Michelin Pilot Sport Cup.[187]
-20.6 km,7:40,Production,Mercedes-Benz,Mercedes-Benz SLS AMG,Horst von Saurma,2010-05-01,Sport Auto (05/2010) Continental ContiSportContact 5.[188]
+20.6 km,7:40,Production,Mercedes_Benz,Mercedes_Benz SLS AMG,Horst von Saurma,2010-05-01,Sport Auto (05/2010) Continental ContiSportContact 5.[188]
 20.6 km,07:40.1,Production,Renault,Renault Megane R.S. Trophy-R,Laurent Hurgon,2019-04-01,Renault Sport conducted test Bridgestone Potenza S007.[189][190][191]
 20.832 km,07:40.8,Production,Lamborghini,Lamborghini Gallardo LP570-4 Superleggera,Sascha Bert,2010-11-01,Auto Bild Sportscars (11/2010)[181]
 20.832 km,07:41.2,Production,Porsche,Porsche 911 Turbo S (997.2),Sascha Bert,2010-11-01,Auto Bild Sportscars (11/2010)[citation needed]
@@ -112,15 +112,15 @@ n/a,07:42.9,Production,Chevrolet,Chevrolet Corvette C6 Z06,Jan Magnussen,2005-08
 n/a,7:43,Production,Porsche,Porsche 911 GT3 RS (997),n/a,2006-01-01,'Motor' magazine[citation needed]
 20.6 km,07:43.8,Production,Honda,Honda Civic Type R (FK8),n/a,2017-04-01,"Honda conducted test full ""floating"" roll cage removed infotainment and rear seats.[203][204]"
 20.832 km,07:43.7,Production,Nissan,Nissan GT-R,Sascha Bert,2010-11-01,Auto Bild Sportscars (11/2010)[181]
-20.6 km,07:43.9,Production,Aston Martin,Aston Martin V8 Vantage (2019),Christian Gebhardt,2020-02-01,Sport Auto (02/2020) Pirelli P Zero A6A.[205][206]
+20.6 km,07:43.9,Production,Aston_Martin,Aston_Martin V8 Vantage (2019),Christian Gebhardt,2020-02-01,Sport Auto (02/2020) Pirelli P Zero A6A.[205][206]
 20.6 km,7:44,Production,Audi,Audi R8 Coupe 5.2 FSI quattro,n/a,2009-09-01,Sport Auto (09/2009) Pirelli P Zero Corsa.[207]
 20.6 km,7:44,Production,Pagani ,Pagani Zonda S 7.3 (2002),Horst von Saurma,2002-01-01,Sport Auto (2002) Michelin Pilot Sport.[208]
 n/a,7:44,Production,Bugatti,Bugatti EB110 SS,Loris Bicocchi,2001-03-07,[209][210][211][212]
-20.6 km,07:44.1,Production,Mercedes-Benz,Mercedes-AMG C 63 S Coupe (W205),Christian Gebhardt,2019-03-01,Sport Auto (03/2019).[213]
-20.832 km,07:44.4,Production,Mercedes-Benz,Mercedes-Benz SLS AMG,Sascha Bert,2010-11-01,Auto Bild Sportscars (11/2010)[citation needed]
-20.6 km,07:45.2,Production,Mercedes-Benz,Mercedes-AMG E63 S 4Matic+ (T-Modell Wagon),Christian Gebhardt,2017-12-01,Sport Auto (12/2017) Michelin Pilot Sport 4S.[214][215]
+20.6 km,07:44.1,Production,Mercedes_Benz,Mercedes-AMG C 63 S Coupe (W205),Christian Gebhardt,2019-03-01,Sport Auto (03/2019).[213]
+20.832 km,07:44.4,Production,Mercedes_Benz,Mercedes_Benz SLS AMG,Sascha Bert,2010-11-01,Auto Bild Sportscars (11/2010)[citation needed]
+20.6 km,07:45.2,Production,Mercedes_Benz,Mercedes-AMG E63 S 4Matic+ (T-Modell Wagon),Christian Gebhardt,2017-12-01,Sport Auto (12/2017) Michelin Pilot Sport 4S.[214][215]
 20.832 km,07:45.4,Production,Renault ,Renault Megane R.S. Trophy-R,Laurent Hurgon,2019-04-01,Renault Sport conducted test Bridgestone Potenza S007.[189][216][191]
-20.6 km,7:46,Production,Mercedes-Benz,Mercedes-Benz C 63 AMG Coupe Black Series,Horst von Saurma,2012-01-01,Sport Auto (01/2012) Dunlop Sport Maxx Race M0.[217][218]
+20.6 km,7:46,Production,Mercedes_Benz,Mercedes_Benz C 63 AMG Coupe Black Series,Horst von Saurma,2012-01-01,Sport Auto (01/2012) Dunlop Sport Maxx Race M0.[217][218]
 20.6 km,7:46,Production,Porsche,Porsche 911 GT2 (1999),Horst von Saurma,2001-06-01,Sport Auto (06/2001)[citation needed]
 20.6 km,7:46,Production,Lamborghini,Lamborghini Gallardo LP570-4 Superleggera,Horst von Saurma,2007-09-01,Sport Auto (09/2007) Pirelli P Zero Corsa.[219]
 20.6 km,07:46.7,Production,Porsche,Porsche 718 Cayman S (982),Christian Gebhardt,2016-09-01,Sport Auto (10/2016) Pirelli P Zero N1.[220][221]
@@ -133,28 +133,28 @@ n/a,7:44,Production,Bugatti,Bugatti EB110 SS,Loris Bicocchi,2001-03-07,[209][210
 20.6 km,7:48,Production,Porsche,Porsche 911 GT3 RS (997.1),Horst von Saurma,2007-03-01,Sport Auto (3/2007) Michelin Pilot Sport Cup.[228]
 20.6 km,7:48,Production,Porsche,Porsche 911 GT3 (997.1),Horst von Saurma,2006-07-01,Sport Auto (7/2006) Michelin Pilot Sport Cup.[229]
 20.6 km,07:48.1,Production,Lotus,Lotus Exige Cup 380 (2017),Christian Gebhardt,2018-01-01,Sport Auto (1/2018) Michelin Pilot Sport Cup 2.[230][231]
-20.6 km,07:48.8,Production,Mercedes-Benz,Mercedes-AMG A 45 S 4Matic+ (W177),Christian Gebhardt,2020-04-01,Sport Auto (04/2020) Pirelli P Zero Trofeo R MO1.[232]
+20.6 km,07:48.8,Production,Mercedes_Benz,Mercedes-AMG A 45 S 4Matic+ (W177),Christian Gebhardt,2020-04-01,Sport Auto (04/2020) Pirelli P Zero Trofeo R MO1.[232]
 20.6 km,7:49,Production,Chevrolet,Chevrolet Corvette C6 Z06,Horst von Saurma,2007-06-22,Sport Auto (06/2007) Goodyear Eagle F1 Supercar EMT.[233]
 20.6 km,07:49.2,Production,Volkswagen,Volkswagen Golf GTI Clubsport S,Benny Leuchter,2016-04-20,Volkswagen conducted test[234] special Nurburgring set-up. FWD car record video confirmed.
-20.6 km,7:50,Production,Aston Martin,Aston Martin V8 Vantage GT8,Christian Gebhardt,2017-02-01,Sport Auto (3/2017) Michelin Pilot Sport Cup 2.[235][236]
+20.6 km,7:50,Production,Aston_Martin,Aston_Martin V8 Vantage GT8,Christian Gebhardt,2017-02-01,Sport Auto (3/2017) Michelin Pilot Sport Cup 2.[235][236]
 20.6 km,7:50,Production,BMW,BMW M3 CSL (E46 2004),Horst von Saurma,2003-08-01,Sport Auto (08/2003) Michelin Pilot Sport Cup.[237]
 20.6 km,7:50,Production,Porsche,Porsche 911 Carrera S (997.2 2009),Horst von Saurma,2008-08-01,Sport Auto (08/2008) Michelin Pilot Sport Cup N0 PCCB PDK Sport Chrono Plus.[238]
-n/a,7:51,Production,Mercedes-Benz,Mercedes-Benz SL65 AMG Black Series,n/a,2011-12-20,Motor Trend [239]
+n/a,7:51,Production,Mercedes_Benz,Mercedes_Benz SL65 AMG Black Series,n/a,2011-12-20,Motor Trend [239]
 20.8 km,07:51.5,Production,Volvo ,Volvo S60 Polestar (2016),n/a,2016-05-01,[240]
-20.6 km,07:51.7,Production,Alfa Romeo,Alfa Romeo Stelvio Quadrifoglio (2018),Fabio Francia,2017-09-28,Alfa Romeo conducted test. Pirelli tyre. Equipped with OEM optional racing seat harness and carbon-ceramic brakes. Equipped with roll cage.[241][242]
+20.6 km,07:51.7,Production,Alfa_Romeo,Alfa_Romeo Stelvio Quadrifoglio (2018),Fabio Francia,2017-09-28,Alfa_Romeo conducted test. Pirelli tyre. Equipped with OEM optional racing seat harness and carbon-ceramic brakes. Equipped with roll cage.[241][242]
 20.6 km,07:51.8,Production,Lamborghini,Lamborghini Gallardo LP 560-4,Horst von Saurma,2008-11-01,Sport Auto (11/2008) Pirelli P Zero Corsa.[243]
-20.6 km,7:52,Production,Aston Martin,Aston Martin V12 Vantage S,Horst von Saurma,2014-08-01,Sport Auto (8/2014) Pirelli P Zero Corsa eight-speed Sportshift III automatic.[244]
+20.6 km,7:52,Production,Aston_Martin,Aston_Martin V12 Vantage S,Horst von Saurma,2014-08-01,Sport Auto (8/2014) Pirelli P Zero Corsa eight-speed Sportshift III automatic.[244]
 20.6 km,7:52,Production,BMW,BMW M4,Horst von Saurma,2014-08-02,Auto Motor & Sport Germany[245]
-20.6 km,7:52,Production,Mercedes-Benz,Mercedes-Benz SLR McLaren,Klaus Ludwig,2003-01-01,Sport Auto Michelin Pilot Sport 2.[246]
+20.6 km,7:52,Production,Mercedes_Benz,Mercedes_Benz SLR McLaren,Klaus Ludwig,2003-01-01,Sport Auto Michelin Pilot Sport 2.[246]
 20.6 km,7:52,Production,Porsche,Porsche Panamera Turbo S (970),Horst von Saurma,2012-04-01,Sport Auto (04/2012) PDK Michelin Pilot Sport.[247]
 20.6 km,07:52.2,Production,Toyota,Toyota GR Supra (A90/J29),Christian Gebhardt,2020-01-01,Sport Auto (01/2020) Michelin Pilot Super Sport.[248]
 20.6 km,7:52:36,Production,BMW,BMW M2 Competition (F22),Horst von Saurma,2018-10-01,Sport Auto[249][250]
-20.6 km,7:54,Production,Mercedes-Benz,Mercedes-Benz CLK DTM AMG (W209 2004),Marcus Schurig,2005-03-01,Sport Auto (03/2005) Dunlop SP Sport Super Race five-speed AMG SPEEDSHIFT automatic.[251]
+20.6 km,7:54,Production,Mercedes_Benz,Mercedes_Benz CLK DTM AMG (W209 2004),Marcus Schurig,2005-03-01,Sport Auto (03/2005) Dunlop SP Sport Super Race five-speed AMG SPEEDSHIFT automatic.[251]
 n/a,7:54,Production,Nissan,Nissan GT-R,n/a,2008-09-01,Porsche conducted test stock vehicle.[156]
 20.6 km,7:54,Production,Porsche,Porsche 911 GT3 (996),Horst von Saurma,2003-06-01,Sport Auto (6/2003) Michelin Pilot Sport N2.[252]
 20.6 km,7:54,Production,Porsche,Porsche 911 Turbo (997),Horst von Saurma,2007-05-01,Sport Auto (05/2007) Michelin Pilot Sport Cup N0.[253]
-20.6 km,07:54.4,Production,MÃ©gane,Renault Megane RS 275 Trophy-R,Laurent Hurgon,2014-06-16,Test realised by Renault Sport[254]
-20.6 km,7:55,Production,Mercedes-Benz,Mercedes-Benz E63 AMG S 4Matic,Horst von Saurma,2013-09-01,Sport Auto (09/2013) [255]
+20.6 km,07:54.4,Production,Renault,Renault Megane RS 275 Trophy-R,Laurent Hurgon,2014-06-16,Test realised by Renault Sport[254]
+20.6 km,7:55,Production,Mercedes_Benz,Mercedes_Benz E63 AMG S 4Matic,Horst von Saurma,2013-09-01,Sport Auto (09/2013) [255]
 20.6 km,7:54,Production,BMW,BMW F10 M5 Competition,Horst von Saurma,2014-12-01,Sport Auto (12/2014)[256]
 n/a,7:55,Production,Caterham,Caterham R500 Superlight,Robert Nearn,2000-07-01,Evo Magazine (07/2000)[citation needed]
 20.6 km,7:55,Production,Ferrari,Ferrari F430 F1,Horst von Saurma,2006-01-01,Sport Auto (01/2006) Pirelli P Zero Corsa.[257]
@@ -172,21 +172,21 @@ n/a,7:59,Production,Nissan,Nissan Skyline GT-R R33 V-Spec,Dirk Schoysman,1997-01
 n/a,7:59,Production,Dodge,Dodge Viper SRT-10 (2005),n/a,2005-11-01,Motor Trend[citation needed]
 n/a,07:59.7,Production,Porsche,Porsche Cayenne Turbo S (958.2),n/a,2008-12-19,Porsche conducted test[267]
 n/a,8:01,Production,Nissan,Nissan Skyline GT-R R33,Motoharu Kurosawa,1999-01-01,Best Motoring - Video Special DVD Series Prototype (weight/horsepower different from production car)[citation needed]
-n/a,8:02,Production,Mercedes-Benz,Mercedes-Benz CLK63 AMG Black Series,n/a,2007-07-01,Auto Bild (07/2007)[citation needed]
-20.6 km,8:02,Production,Aston Martin,Aston Martin DBS,Horst von Saurma,2009-01-01,Sport Auto (01/2009) Pirelli P Zero.[268]
-n/a,8:03,Production,Aston Martin,Aston Martin V8 Vantage (2005),Horst von Saurma,2005-10-01,Sport Auto (10/2005)[citation needed]
+n/a,8:02,Production,Mercedes_Benz,Mercedes_Benz CLK63 AMG Black Series,n/a,2007-07-01,Auto Bild (07/2007)[citation needed]
+20.6 km,8:02,Production,Aston_Martin,Aston_Martin DBS,Horst von Saurma,2009-01-01,Sport Auto (01/2009) Pirelli P Zero.[268]
+n/a,8:03,Production,Aston_Martin,Aston_Martin V8 Vantage (2005),Horst von Saurma,2005-10-01,Sport Auto (10/2005)[citation needed]
 20.6 km,8:03,Production,Jaguar,Jaguar XKR-S,Horst von Saurma,2012-03-01,Sport Auto (03/2012) Pirelli P-Zero six-speed automatic.[269]
 n/a,8:03,Production,Porsche,Porsche 911 GT3 (996),Horst von Saurma,1999-08-01,Sport Auto (08/1999)[citation needed]
 n/a,08:03.9,Production,Honda,Honda NSX-R (NA1),Motoharu Kurosawa,1995-01-01,"Best Motoring Video Special Vol. 25 ""NA1 NSX-R"" (1995) video confirmed[citation needed]"
 20.6 km,8:04,Production,Lamborghini,Lamborghini Diablo GT,Horst von Saurma,2000-07-01,Sport Auto (07/2000) Pirelli P Zero.[270]
 20.6 km,8:04,Production,Audi,Audi R8 4.2 FSI quattro,Horst von Saurma,2007-07-01,Sport Auto (07/2007) Pirelli P Zero Corsa manual.[271]
-20.6 km,8:04,Production,Alfa Romeo,Alfa Romeo 4C,Horst von Saurma,2013-09-12,[272][273]
+20.6 km,8:04,Production,Alfa_Romeo,Alfa_Romeo 4C,Horst von Saurma,2013-09-12,[272][273]
 n/a,8:04,Production,Porsche,Porsche Cayman S,Walter Rohrl,2013-10-18,Sport Auto 19Â inch wheels ceramic brakes.[citation needed]
 20.6 km,8:04,Production,Porsche,Porsche Boxster S (981),Horst von Saurma,2012-07-01,Sport Auto (07/2012) Pirelli P Zero PDK PCCB PASM.[274]
 20.6 km,08:04.9,Production,Volkswagen,Volkswagen Golf GTI TCR (2019),Christian Gebhardt,2019-12-01,Sport Auto (12/2019) Michelin Pilot Sport Cup 2 N0.[275]
 20.6 km,8:05,Production,BMW,BMW M3 E92,Horst von Saurma,2007-12-01,Sport Auto (12/2007)[276]
-20.6 km,8:05,Production,Mercedes-Benz,Mercedes-Benz CLK63 Black Series,Horst von Saurma,2008-03-01,Sport Auto (03/2008) Pirelli P Zero Corsa.[277]
-n/a,8:06,Production,Subaru ,Subaru WRX STi Spec-C (2004),Motoharu Kurosawa,2006-01-01,Best Motoring Video 'NISMO Beast Unleashed'[278]
+20.6 km,8:05,Production,Mercedes_Benz,Mercedes_Benz CLK63 Black Series,Horst von Saurma,2008-03-01,Sport Auto (03/2008) Pirelli P Zero Corsa.[277]
+n/a,8:06,Production,Subaru,Subaru WRX STi Spec-C (2004),Motoharu Kurosawa,2006-01-01,Best Motoring Video 'NISMO Beast Unleashed'[278]
 20.6 km,08:06.3,Production,Ford,Ford Focus RS (Mk III 2016),Christian Gebhardt,2017-01-01,Sport Auto (1/2017).[279][280]
 n/a,08:06.6,Production,Honda,Honda NSX (NA1),Fredrik Sorlie,2016-09-01,Kumho HU36 D2 coilovers[281]
 20.6 km,8:07,Production,Ford,Ford Mustang GT Performance Pack,Horst von Saurma,2012-07-01,Auto Zeitung[282][283]
@@ -204,11 +204,11 @@ n/a,08:11.2,Production,Mitsubishi,Mitsubishi Lancer Evo IX,Takayuki Kinoshita,20
 n/a,8:12,Production,BMW,BMW Z4 M Coupe,n/a,2006-07-01,Evo Magazine (Issue 093 page 077)[citation needed]
 20.6 km,8:13,Production,BMW,BMW E60 M5,Horst von Saurma,2004-12-01,Sport Auto (12/2004)[293]
 20.6 km,8:13,Production,Dodge,Dodge Viper SRT-10 roadster (ZB),Horst von Saurma,2007-01-01,Sport Auto (2007) Michelin Pilot Sport.[294]
-20.6 km,8:13,Production,Mercedes-Benz,Mercedes-Benz C63 AMG (W204),Horst von Saurma,2009-02-01,Sport Auto (02/2009) Michelin Pilot Sport 2 Performance Package (LSD composite brakes sport suspension).[295]
+20.6 km,8:13,Production,Mercedes_Benz,Mercedes_Benz C63 AMG (W204),Horst von Saurma,2009-02-01,Sport Auto (02/2009) Michelin Pilot Sport 2 Performance Package (LSD composite brakes sport suspension).[295]
 n/a,8:13,Production,Porsche,Porsche Cayenne Turbo (958),n/a,2011-01-27,Porsche conducted test air suspension PDCC no PASM.[296]
 20.6 km,8:14,Production,Artega,Artega GT,Horst von Saurma,2010-12-01,Sport Auto (12/2010) Continental Conti ForceContact DSG optional sport suspension.[297]
 n/a,8:14,Production,BMW,BMW Alpina B3 (E92) Biturbo Coupe,Horst von Saurma,2008-12-01,Sport Auto (12/2008) optional LSD and 19 inch wheels.[298]
-n/a,8:14,Production,Range Rover,Range Rover Sport SVR (2015),n/a,2014-05-01,Range Rover conducted test.[299][300]
+n/a,8:14,Production,Range_Rover,Range_Rover Sport SVR (2015),n/a,2014-05-01,Range_Rover conducted test.[299][300]
 20.6 km,8:15,Production,BMW,BMW 1 Series M Coupe (E82),Horst von Saurma,2011-07-01,Sport Auto (07/2011) Michelin Pilot Sport.[301]
 20.6 km,8:15,Production,Honda,Honda Civic Type R (FK2),Christian Gebhardt,2016-04-01,Sport Auto (04/2016) Continental Conti SportContact 6 manual.[302]
 n/a,08:16.1,Production,Honda,Honda NSX (NA1),Motoharu Kurosawa,1990-01-01,"Best Motoring Video Special Vol. 15 ""The Honda NSX"" (1990) video confirmed[citation needed]"
@@ -224,7 +224,7 @@ n/a,8:20,Production,Chevrolet,Chevrolet Camaro SS (2010),n/a,2010-01-01,GM condu
 n/a,8:22,Production,Nissan,Nissan Skyline GT-R R32,Motoharu Kurosawa,1999-01-01,Best Motoring Video Special DVD[citation needed]
 20.6 km,8:22,Production,BMW,BMW M3 E46,Horst von Saurma,2000-12-01,Sport Auto (12/2000) Michelin Pilot Sport.[312]
 n/a,8:22,Production,BMW,BMW M3 E36/8,Horst von Saurma,1998-10-01,Sport Auto (10/1998)[citation needed]
-20.6 km,8:22,Production,Mercedes-Benz,Mercedes-Benz C55 AMG  (W203),Horst von Saurma,2004-07-01,Sport Auto (7/2004) Pirelli P Zero Rosso.[313]
+20.6 km,8:22,Production,Mercedes_Benz,Mercedes_Benz C55 AMG  (W203),Horst von Saurma,2004-07-01,Sport Auto (7/2004) Pirelli P Zero Rosso.[313]
 n/a,08:22.9,Production,Chevrolet,Chevrolet Cobalt SS/TC (2007),n/a,2007-10-01,Motor Trend (10/2007)[citation needed]
 20.6 km,8:23,Production,Porsche,Porsche Boxster S (987 2006),Horst von Saurma,2006-04-01,Sport Auto (04/2006) Michelin Pilot Sport 2 N1 manual Sport Chrono PASM.[314]
 20.6 km,08:23.1,Production,Porsche,Porsche 911 Carrera RS (964),Christian Gebhardt,2019-10-01,Sport Auto (10/2019) Pirelli P Zero Trofeo R N0.[145]
@@ -242,7 +242,7 @@ n/a,8:26,Production,Nissan,Nissan 350Z,Horst von Saurma,2003-10-01,Sport Auto (1
 20.6 km,8:28,Production,Mini,Mini John Cooper Works Pro (F56),Christian Gebhardt,2017-04-01,Sport Auto (04/2017) Pirelli P Zero.[322][323]
 n/a,8:28,Production,Porsche,Porsche 911 Carrera (993),Horst von Saurma,1997-07-01,Sport Auto (07/1997)[citation needed]
 20.6 km,8:29,Production,Audi,Audi TTS Coupe,Horst von Saurma,2008-10-01,Sport Auto (10/2008)[324]
-n/a,8:30,Production,Alfa Romeo,Alfa Romeo Giulietta QV,n/a,2011-04-01,al Volante.it (04/2011)[325]
+n/a,8:30,Production,Alfa_Romeo,Alfa_Romeo Giulietta QV,n/a,2011-04-01,al Volante.it (04/2011)[325]
 n/a,8:32,Production,Porsche,Porsche Boxster S,Horst von Saurma,1999-12-01,Sport Auto (12/1999)[citation needed]
 20.6 km,8:35,Production,BMW,BMW M3 E36,Horst von Saurma,1997-03-01,Sport Auto (03/1997) Michelin MXX3 SMG automatic.[326]
 n/a,08:35.0,Production,Ford,Ford Focus ST,Patrick Bernhard,2011-01-01,Factory claimed.[327][328]
@@ -264,7 +264,7 @@ n/a,08:48.0,Production,Opel,Opel Corsa OPC,Manuel Reuter,2007-09-04,Opel conduct
 20.6 km,8:53,Production,Volkswagen,Volkswagen Golf GTI (Mk5),Horst von Saurma,2005-11-01,Sport Auto (11/2005) Michelin Pilot Exalto DSG.[337]
 20.6 km,8:54,Production,Opel,Opel Corsa 1.6 Turbo OPC,Horst von Saurma,2008-04-01,Sport Auto (04/2008) Continental Conti SportContact.[338]
 n/a,08:54.4,Production,Opel,Opel Zafira OPC,Manuel Reuter,1999-01-01,[citation needed]
-n/a,8:55,Production,Range Rover,Range Rover Sport Supercharged (2010),Paul Wijgaertz,2009-08-12,Dynamic Adaptive Test - https://www.youtube.com/watch?v=4SYyxYDWtyk
+n/a,8:55,Production,Range_Rover,Range_Rover Sport Supercharged (2010),Paul Wijgaertz,2009-08-12,Dynamic Adaptive Test - https://www.youtube.com/watch?v=4SYyxYDWtyk
 19.1 km,9:00,Production,Tesla,Tesla Model 3 Performance,n/a,2019-04-08,BTG[339]
 n/a,9:02,Production,Chevrolet ,Chevrolet Cobalt SS Turbo,John Heinricy,2007-10-01,Wet Track[340]
 19.1 km,9:09,Production,Volkswagen,Volkswagen Lupo GTI,Daniel Schwerfeld,2002-09-29,BTG[341]
@@ -281,7 +281,7 @@ n/a,9:02,Production,Chevrolet ,Chevrolet Cobalt SS Turbo,John Heinricy,2007-10-0
 20.832 km,07:05.1,Special,NIO,NIO EP9,Peter Dumbreck,2016-10-14,NIO's first run in the Nurburgring taken in wet conditions.
 20.6 km,07:09.6,Special,Porsche,Porsche 911 GT3 RS MR (991.1) by Manthey Racing,Christian Gebhardt,2017-08-16,Street-legal Michelin Pilot Sport Cup 2 N0 magnesium wheels KW Competition 3-way race suspension 911 R diffusor.
 20.6 km,07:15.6,Special,Porsche,Porsche 911 GT2 (996) by Edo Competition,Patrick Simon,2005-08-04,Vehicle was tuned to produce 670Â bhp and 880Nm Torque.
-20.832 km,07:20.1,Special,Lynk & Co,Lynk & Co 03 Cyan Concept,Thed Bjork,2019-08-23,Michelin Pilot Sport Cup 2 285/30R20.
+20.832 km,07:20.1,Special,Lynk_And_Co,Lynk_&_Co 03 Cyan Concept,Thed Bjork,2019-08-23,Michelin Pilot Sport Cup 2 285/30R20.
 20.832 km,7:22:00,Special,Ford,Mygale M12-SJ-Ford Ecoboost,Nick Tandy,2012-09-04,Technical info of chassis. Car is a series produced Formula Ford racer converted for road use that including the addition of registration plates wheel covers front and rear lights revised wing mirrors and a horn. The car was driven on road-legal tyres. Ford conducted test.
 20.832 km,07:22.3,Special,Toyota,Toyota TMG EV P002,Jochen Krumbach,2012-10-02,Toyota Motorsport GmbH conducted test.
 20.6 km,07:29.5,Special,BMW ,BMW M5 (F90) by AC Schnitzer,Jorg Muller,2018-08-22,n/a
@@ -293,49 +293,49 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 20.832 km,7:55,Special,Subaru ,Subaru Impreza WRX STi Sedan (2011) Prototype,Tommi Makinen,2010-04-16,Subaru conducted test. MY2011 prototype with non-production upgrades and modifications. Subaru EJ207 engine from a 2010 JDM Subaru Impreza WRX STi R205 with larger turbo. Video confirmed.[390]
 20.832 km,8:15,Special,BMW ,BMW Z4 M Roadster Prototype,n/a,2009-01-01,"""...we cant resist asking what its lap time is and Richter (Gerhard Richter director of M GmbH) reveals that it's 8:15 but that time was set with a development car rather than the final optimum production-ready car."""
 20.6 km,08:19.8,Special,BMW ,BMW i8 by AC Schnitzer,Markus Oestreich,2017-01-01,"Bodykit with wing 21"" wheels wider tyres lowered suspension."
-20.832 km,08:42.7,Special,Electric Raceabout,Electric Raceabout,Ralf Kelleners,2011-09-01,Electric RaceAbout of Finland is road legal and registered prototype battery electric vehicle. Test was run by Helsinki Metropolia University of Applied Sciences using Nokian Z G2 high performance road tyres.[392] Time will also be verified and published by Sport Auto.
+20.832 km,08:42.7,Special,Electric_Raceabout,Electric_Raceabout,Ralf Kelleners,2011-09-01,Electric_Raceabout of Finland is road legal and registered prototype battery electric vehicle. Test was run by Helsinki Metropolia University of Applied Sciences using Nokian Z G2 high performance road tyres.[392] Time will also be verified and published by Sport Auto.
 20.832 km,08:56.8,Special,Chery,Chery Riich G5 2.0T,Dirk Schoysman,2009-10-13,Chery conducted test. This modified car differs from the production model with added roll-cage stripped out interior upgraded brakes rims and tyres. Not clear whether the engine had been tuned. Chery claimed that they have been the first Chinese auto maker that 'Conquered the Nurburgring (ä¸­å›½é¦–é©±ï¼Œå¾æœçº½åšæ ¼æž—ï¼)'.
 19.1 km,9:12,Special,Jaguar,Jaguar S-Type Diesel,Sabine Schmitz,2004-11-21,Sabine Schmitz set this lap on her first try after telling Jeremy Clarkson that his time in the Jaguar of 9:59 was rubbish.
 20.832 km,9:52,Special,Mini,Mini E racer Electric,Thomas Jager,2010-04-01,This was the first time under ten minutes recorded by an electric car.
 19.1 km,9:59,Special,Jaguar,Jaguar S-Type Diesel,Jeremy Clarkson,2004-11-21,Clarkson was set a challenge to get a Jaguar S-Type 2.7 Diesel round the 'ring in under 10 minutes and after getting shown around and getting advice from Sabine Schmitz and quite a few attempts he managed a 9:59. Sabine went on to say that she could do this lap time in a van. She completed the lap in the same car as Clarkson in 9:12.
 19.1 km,10:08.5,Special,Ford,Ford Transit,Sabine Schmitz,2005-01-01,After telling Jeremy Clarkson that she could do his lap time in a van Schmitz was set the same challenge as Clarkson but in a Ford Transit. After a few attempts she found this was impossible so she had to strip some weight out of the van and have a Dodge Viper drive in front of it for slipstream. Vehicle had several parts removed and the draft vehicle in front of it for the 10:08 lap time. Top Gear Series 6 Episode 7. Originally aired 10 July 2005[397]
 22.810 km,11:48.0,Racing,Bugatti,Bugatti T51,Achille Varzi,1931-07-19,"1931 German Grand Prix, fastest lap[1]"
-22.810 km,11:42.8,Racing,Alfa Romeo,Alfa Romeo Monza,Rudolf Caracciola,1932-05-29,"1932 Eifelrennen, fastest lap [2][3] (wet race?)"
-22.810 km,10:49.4,Racing,Alfa Romeo,Alfa Romeo Tipo B/P3,Tazio Nuvolari,1932-07-17,"1932 German Grand Prix, fastest lap [4][5]"
-22.810 km,10:43.8,Racing,Auto Union,Auto Union Type A,Hans Stuck,1934-07-15,"1934 German Grand Prix, fastest lap [9]"
-22.810 km,10:45,Racing,Mercedes-Benz,Mercedes-Benz W25,Manfred von Brauchitsch,1935-06-14,"1935 Eifelrennen, quickest in practice day 1[10]"
-22.810 km,11:03.4,Racing,Mercedes-Benz,Mercedes-Benz W25,Rudolf Caracciola,1935-06-16,"1935 Eifelrennen, fastest wet race lap[11][12]"
-22.810 km,10:32.0,Racing,Mercedes-Benz,Mercedes-Benz W25,Manfred von Brauchitsch,1935-07-28,"1935 German Grand Prix, fastest lap, partially wet [13][14][15]"
-22.810 km,11:25.0,Racing,Auto Union,Auto Union Type C,Bernd Rosemeyer,1936-06-14,"1936 Eifelrennen, fastest lap in fog and rain [16]"
-22.810 km,10:03,Racing,Mercedes-Benz,Mercedes-Benz W25K,Rudolf Caracciola,1936-07-25,"1936 German Grand Prix, quickest in practice [17]"
-22.810 km,09:56.3,Racing,Auto Union,Auto Union Type C,Bernd Rosemeyer,1936-07-26,"1936 German Grand Prix, fastest lap [18][19]"
-22.810 km,9:57,Racing,Auto Union,Auto Union Type C,Bernd Rosemeyer,1937-06-12,"1937 Eifelrennen, pole [20][21]"
-22.810 km,09:58.8,Racing,Auto Union,Auto Union Type C,Bernd Rosemeyer,1937-06-13,"1937 Eifelrennen, fastest lap [22]"
-22.810 km,09:46.2,Racing,Auto Union,Auto Union Type C,Bernd Rosemeyer,1937-07-24,"1937 German Grand Prix, pole [23][24]"
-22.810 km,09:53.4,Racing,Auto Union,Auto Union Type C,Bernd Rosemeyer,1937-07-25,"1937 German Grand Prix, fastest lap [22]"
-22.810 km,09:48.3,Racing,Mercedes-Benz,Mercedes-Benz W154,Manfred von Brauchitsch,1938-07-23,"1938 German Grand Prix, pole [25][26]"
-22.810 km,10:09.1,Racing,Mercedes-Benz,Mercedes-Benz W154,Richard Seaman,1938-07-24,"1938 German Grand Prix, fastest lap [27]"
-22.810 km,9:54,Racing,Mercedes-Benz,Mercedes-Benz W154,Hermann Lang,1939-05-20,"1939 Eifelrennen, pole [28][29]"
-22.810 km,09:52.2,Racing,Mercedes-Benz,Mercedes-Benz W154,Hermann Lang,1939-05-21,"1939 Eifelrennen, fastest lap[28]"
-22.810 km,09:43.1,Racing,Mercedes-Benz,Mercedes-Benz W154,Hermann Lang,1939-07-22,"1939 German Grand Prix, pole [30]"
-22.810 km,10:24.2,Racing,Mercedes-Benz,Mercedes-Benz W154,Rudolf Caracciola,1939-07-23,"1939 German Grand Prix, fastest lap, wet race [31]"
+22.810 km,11:42.8,Racing,Alfa_Romeo,Alfa_Romeo Monza,Rudolf Caracciola,1932-05-29,"1932 Eifelrennen, fastest lap [2][3] (wet race?)"
+22.810 km,10:49.4,Racing,Alfa_Romeo,Alfa_Romeo Tipo B/P3,Tazio Nuvolari,1932-07-17,"1932 German Grand Prix, fastest lap [4][5]"
+22.810 km,10:43.8,Racing,Auto_Union,Auto_Union Type A,Hans Stuck,1934-07-15,"1934 German Grand Prix, fastest lap [9]"
+22.810 km,10:45,Racing,Mercedes_Benz,Mercedes_Benz W25,Manfred von Brauchitsch,1935-06-14,"1935 Eifelrennen, quickest in practice day 1[10]"
+22.810 km,11:03.4,Racing,Mercedes_Benz,Mercedes_Benz W25,Rudolf Caracciola,1935-06-16,"1935 Eifelrennen, fastest wet race lap[11][12]"
+22.810 km,10:32.0,Racing,Mercedes_Benz,Mercedes_Benz W25,Manfred von Brauchitsch,1935-07-28,"1935 German Grand Prix, fastest lap, partially wet [13][14][15]"
+22.810 km,11:25.0,Racing,Auto_Union,Auto_Union Type C,Bernd Rosemeyer,1936-06-14,"1936 Eifelrennen, fastest lap in fog and rain [16]"
+22.810 km,10:03,Racing,Mercedes_Benz,Mercedes_Benz W25K,Rudolf Caracciola,1936-07-25,"1936 German Grand Prix, quickest in practice [17]"
+22.810 km,09:56.3,Racing,Auto_Union,Auto_Union Type C,Bernd Rosemeyer,1936-07-26,"1936 German Grand Prix, fastest lap [18][19]"
+22.810 km,9:57,Racing,Auto_Union,Auto_Union Type C,Bernd Rosemeyer,1937-06-12,"1937 Eifelrennen, pole [20][21]"
+22.810 km,09:58.8,Racing,Auto_Union,Auto_Union Type C,Bernd Rosemeyer,1937-06-13,"1937 Eifelrennen, fastest lap [22]"
+22.810 km,09:46.2,Racing,Auto_Union,Auto_Union Type C,Bernd Rosemeyer,1937-07-24,"1937 German Grand Prix, pole [23][24]"
+22.810 km,09:53.4,Racing,Auto_Union,Auto_Union Type C,Bernd Rosemeyer,1937-07-25,"1937 German Grand Prix, fastest lap [22]"
+22.810 km,09:48.3,Racing,Mercedes_Benz,Mercedes_Benz W154,Manfred von Brauchitsch,1938-07-23,"1938 German Grand Prix, pole [25][26]"
+22.810 km,10:09.1,Racing,Mercedes_Benz,Mercedes_Benz W154,Richard Seaman,1938-07-24,"1938 German Grand Prix, fastest lap [27]"
+22.810 km,9:54,Racing,Mercedes_Benz,Mercedes_Benz W154,Hermann Lang,1939-05-20,"1939 Eifelrennen, pole [28][29]"
+22.810 km,09:52.2,Racing,Mercedes_Benz,Mercedes_Benz W154,Hermann Lang,1939-05-21,"1939 Eifelrennen, fastest lap[28]"
+22.810 km,09:43.1,Racing,Mercedes_Benz,Mercedes_Benz W154,Hermann Lang,1939-07-22,"1939 German Grand Prix, pole [30]"
+22.810 km,10:24.2,Racing,Mercedes_Benz,Mercedes_Benz W154,Rudolf Caracciola,1939-07-23,"1939 German Grand Prix, fastest lap, wet race [31]"
 22.810 km,09:55.8,Racing,Ferrari,Ferrari 375,Alberto Ascari,1951-07-28,"1951 German Grand Prix, pole[32]"
-22.810 km,09:55.8,Racing,Alfa Romeo,Alfa Romeo 158/159 Alfetta,Juan Manuel Fangio,1951-07-29,"1951 German Grand Prix, fastest lap [33]"
-22.810 km,10:26.3,Racing,Mercedes-Benz,Mercedes-Benz W194 Spyder,Hermann Lang,1952-08-03,"1952 German Grand Prix sport car race, fastest lap[34]"
+22.810 km,09:55.8,Racing,Alfa_Romeo,Alfa_Romeo 158/159 Alfetta,Juan Manuel Fangio,1951-07-29,"1951 German Grand Prix, fastest lap [33]"
+22.810 km,10:26.3,Racing,Mercedes_Benz,Mercedes_Benz W194 Spyder,Hermann Lang,1952-08-03,"1952 German Grand Prix sport car race, fastest lap[34]"
 22.810 km,10:05.1,Racing,Ferrari,Ferrari 500,Alberto Ascari,1952-08-03,"1952 German Grand Prix (Formula 2 cars), fastest lap"
 22.810 km,09:56.0,Racing,Ferrari,Ferrari 500,Alberto Ascari,1953-08-02,"1953 German Grand Prix (Formula 2 cars), fastest lap"
 22.810 km,10:23,Racing,Lancia,Lancia D24,Robert Manzon,1953-08-30,"1953 1000 km NÃ¼rburgring, pole & fastest lap [35]"
-22.810 km,09:50.1,Racing,Mercedes-Benz,Mercedes-Benz W196,Juan Manuel Fangio,1954-07-21,"1954 German Grand Prix, pole[36]"
-22.810 km,09:55.1,Racing,Mercedes-Benz,Mercedes-Benz W196,Karl Kling,1954-08-01,"1954 German Grand Prix, fastest lap"
-22.810 km,10:00.1,Racing,Mercedes-Benz,Mercedes-Benz 300 SLR,Juan Manuel Fangio,1955-05-28,1955 Eifelrennen pole [37]
-22.810 km,10:10.8,Racing,Mercedes-Benz,Mercedes-Benz 300 SLR,Stirling Moss,1955-05-29,"1955 Eifelrennen, fastest lap"
+22.810 km,09:50.1,Racing,Mercedes_Benz,Mercedes_Benz W196,Juan Manuel Fangio,1954-07-21,"1954 German Grand Prix, pole[36]"
+22.810 km,09:55.1,Racing,Mercedes_Benz,Mercedes_Benz W196,Karl Kling,1954-08-01,"1954 German Grand Prix, fastest lap"
+22.810 km,10:00.1,Racing,Mercedes_Benz,Mercedes_Benz 300 SLR,Juan Manuel Fangio,1955-05-28,1955 Eifelrennen pole [37]
+22.810 km,10:10.8,Racing,Mercedes_Benz,Mercedes_Benz 300 SLR,Stirling Moss,1955-05-29,"1955 Eifelrennen, fastest lap"
 22.810 km,10:05.3,Racing,Ferrari,Ferrari 860 Monza,Juan Manuel Fangio,1956-05-27,"1956 1000 km NÃ¼rburgring, fastest lap [38]"
 22.810 km,09:41.6,Racing,Ferrari,Ferrari D50,Juan Manuel Fangio,1956-08-05,"1956 German Grand Prix, fastest lap"
 22.810 km,09:17.4,Racing,Maserati,Maserati 250F,Juan Manuel Fangio,1957-08-04,"1957 German Grand Prix, fastest lap"
 22.810 km,09:09.2,Racing,Vanwall,Vanwall,Stirling Moss,1958-08-03,"1958 German Grand Prix, fastest lap"
 22.810 km,09:37.4,Racing,Ferrari,Ferrari 250 TR 59,Tony Brooks/Jean Behra,1959-06-06,"1959 1000 km NÃ¼rburgring, pole[39]"
 22.810 km,09:40.5,Racing,Porsche,Porsche 718 RSK 1.6,Wolfgang von Trips,1959-06-06,"1959 1000 km NÃ¼rburgring, 2nd in qualifying[39][40]"
-22.810 km,9:32,Racing,Aston Martin,Aston Martin DBR1,Stirling Moss,1959-06-07,"1959 1000 km NÃ¼rburgring, fastest lap [41]"
+22.810 km,9:32,Racing,Aston_Martin,Aston_Martin DBR1,Stirling Moss,1959-06-07,"1959 1000 km NÃ¼rburgring, fastest lap [41]"
 22.810 km,09:43.6,Racing,Porsche,Porsche 718 RS 60,Jo Bonnier/Olivier Gendebien,1960-05-21,"1960 1000 km NÃ¼rburgring, pole[42]"
 22.810 km,9:37,Racing,Maserati,Maserati Tipo 61,Stirling Moss,1960-05-22,"1960 1000 km NÃ¼rburgring, fastest lap [42]"
 22.810 km,09:33.7,Racing,Ferrari,Ferrari 246 SP,Wolfgang von Trips,1961-05-27,"1961 1000 km NÃ¼rburgring, pole[43][44]"
@@ -351,26 +351,26 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 22.810 km,08:16.5,Racing,Lotus,Lotus 33-Climax 2.0[56],Jim Clark,1966-08-06,1966 German Grand Prix pole[57]
 22.810 km,08:49.0,Racing,Cooper,Cooper T81 Maserati,John Surtees,1966-08-07,"1966 German Grand Prix fastest lap, wet race[58]"
 22.845 km,08:56.8,Racing,Porsche,Porsche 910,Udo Schutz/Joe Buzzetta,1967-05-27,"1967  1000 km NÃ¼rburgring, pole [59]"
-22.845 km,08:42.1,Racing,,Chaparral 2F,Phil Hill,1967-05-28,"1967  1000 km NÃ¼rburgring, fastest lap [60]"
-22.845 km,08:14.0,Racing,,Matra MS5 - Cosworth FVA,Jacky Ickx,1967-08-05,"1967 German Grand Prix, F2 pole[61]"
+22.845 km,08:42.1,Racing,Chaparral,Chaparral 2F,Phil Hill,1967-05-28,"1967  1000 km NÃ¼rburgring, fastest lap [60]"
+22.845 km,08:14.0,Racing,Matra,Matra MS5 - Cosworth FVA,Jacky Ickx,1967-08-05,"1967 German Grand Prix, F2 pole[61]"
 22.845 km,08:04.1,Racing,Lotus,Lotus 49-Ford,Jim Clark,1967-08-05,"1967 German Grand Prix, pole"
-22.845 km,08:21.8,Racing,,Matra MS5 - Cosworth FVA,Jacky Ickx,1967-08-06,"1967 German Grand Prix, F2 fastest lap"
-22.845 km,08:15.1,Racing,,Eagle-Weslake,Dan Gurney,1967-08-06,"1967 German Grand Prix, fastest lap"
+22.845 km,08:21.8,Racing,Matra,Matra MS5 - Cosworth FVA,Jacky Ickx,1967-08-06,"1967 German Grand Prix, F2 fastest lap"
+22.845 km,08:15.1,Racing,Eagle,Eagle-Weslake,Dan Gurney,1967-08-06,"1967 German Grand Prix, fastest lap"
 22.845 km,08:32.8,Racing,Porsche,Porsche 907 2.2,Hans Herrmann/Rolf Stommelen,1968-05-18,"1968 1000 km NÃ¼rburgring, pole[62]"
 22.845 km,8:33,Racing,Porsche,Porsche 908,Jo Siffert,1968-05-19,"1968 1000 km NÃ¼rburgring, fastest lap[63]"
 22.845 km,07:57.8,Racing,Ferrari,Ferrari 312,Chris Amon,1968-07-01,1968 F1 Scuderia Ferrari Firestone[64] tyre testing session [65]
-22.845 km,09:36.0,Racing,,Matra-Ford,Jackie Stewart,1968-08-04,"1968 German Grand Prix, fastest lap, in a wet race"
-22.845 km,08:05.3,Racing,,Matra MS7 - Cosworth FVA,Jackie Stewart,1969-04-27,"1969 Eifelrennen F2, fastest lap [66][67][68]"
+22.845 km,09:36.0,Racing,Matra,Matra-Ford,Jackie Stewart,1968-08-04,"1968 German Grand Prix, fastest lap, in a wet race"
+22.845 km,08:05.3,Racing,Matra,Matra MS7 - Cosworth FVA,Jackie Stewart,1969-04-27,"1969 Eifelrennen F2, fastest lap [66][67][68]"
 22.845 km,08:00.2,Racing,Porsche,Porsche 908/02,Jo Siffert/Brian Redman,1969-05-31,"1969 1000 km NÃ¼rburgring, pole[69]"
 22.845 km,08:03.3,Racing,Ferrari,Ferrari 312P,Chris Amon,1969-06-01,"1969 1000 km NÃ¼rburgring, fastest lap[70]"
-22.845 km,08:11.1,Racing,,Matra MS7 - Cosworth FVA,Johnny Servoz-Gavin,1969-08-02,"1969 German Grand Prix Formula 2, pole[71]"
-22.845 km,07:42.1,Racing,,Brabham BT26A-Ford,Jacky Ickx,1969-08-02,"1969 German Grand Prix, pole[72][73]"
-22.845 km,08:12.4,Racing,,Matra MS7 - Cosworth FVA,Johnny Servoz-Gavin,1969-08-03,"1969 German Grand Prix Formula 2, fastest lap"
-22.845 km,07:43.8,Racing,,Brabham BT26A-Ford,Jacky Ickx,1969-08-03,"1969 German Grand Prix, fastest lap"
-22.845 km,09:04.8,Racing,,McNamara-Ford,Helmut Marko,1970-04-19,1970 Formula 3 ADAC 300Â km Goodyear Pokal[74]
+22.845 km,08:11.1,Racing,Matra,Matra MS7 - Cosworth FVA,Johnny Servoz-Gavin,1969-08-02,"1969 German Grand Prix Formula 2, pole[71]"
+22.845 km,07:42.1,Racing,Brabham,Brabham BT26A-Ford,Jacky Ickx,1969-08-02,"1969 German Grand Prix, pole[72][73]"
+22.845 km,08:12.4,Racing,Matra,Matra MS7 - Cosworth FVA,Johnny Servoz-Gavin,1969-08-03,"1969 German Grand Prix Formula 2, fastest lap"
+22.845 km,07:43.8,Racing,Brabham,Brabham BT26A-Ford,Jacky Ickx,1969-08-03,"1969 German Grand Prix, fastest lap"
+22.845 km,09:04.8,Racing,McNamara,McNamara-Ford,Helmut Marko,1970-04-19,1970 Formula 3 ADAC 300Â km Goodyear Pokal[74]
 22.845 km,07:43.3,Racing,Porsche,Porsche 908/03,Jo Siffert/Brian Redman,1970-05-30,"1970 1000 km NÃ¼rburgring, pole[75]"
 22.845 km,07:50.4,Racing,Porsche,Porsche 908/03,Pedro Rodriguez,1970-05-31,"1970 1000 km NÃ¼rburgring, fastest lap[76]"
-22.845 km,08:14.5,Racing,,Brabham BT30 - Cosworth FVA,Derek Bell,1970-08-02,1970 Formula 2 Preis von Deutschland[77]
+22.845 km,08:14.5,Racing,Brabham ,Brabham BT30 - Cosworth FVA,Derek Bell,1970-08-02,1970 Formula 2 Preis von Deutschland[77]
 22.835 km,07:57.1,Racing,March,March 712M,Ronnie Peterson,1971-05-02,1971 Eifelrennen Formula 2 fastest lap [78][79][80]
 22.835 km,07:36.1,Racing,Ferrari,Ferrari 312PB,Jacky Ickx/Clay Regazzoni,1971-05-29,"1971 1000 km NÃ¼rburgring, pole-position[81]"
 22.835 km,07:40.8,Racing,Ferrari,Ferrari 312PB,Jacky Ickx,1971-05-30,"1971 1000 km NÃ¼rburgring, fastest lap [82][83]"
@@ -381,7 +381,7 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 22.835 km,07:51.6,Racing,Brabham,Brabham BT38 - Ford BDA,Derek Bell,1972-04-30,1972 Eifelrennen Formula 2 fastest lap [89]
 22.835 km,08:59.7,Racing,Ford,Ford Capri RS 2600,Hans-Joachim Stuck,1972-04-30,1972 Eifelrennen DRM Div. I pole-position [90]
 22.835 km,07:56.1,Racing,Ferrari,Ferrari 312PB,Ronnie Peterson/Tim Schenken,1972-05-27,"1972 1000 km NÃ¼rburgring, pole-position [91]"
-22.835 km,07:42.2,Racing,Alfa Romeo,Alfa Romeo T33 TT/3,Rolf Stommelen,1972-05-28,"1972 1000 km NÃ¼rburgring, fastest lap [92]"
+22.835 km,07:42.2,Racing,Alfa_Romeo,Alfa_Romeo T33 TT/3,Rolf Stommelen,1972-05-28,"1972 1000 km NÃ¼rburgring, fastest lap [92]"
 22.835 km,09:07.0,Racing,BMW,BMW 2800 CS Alpina,Helmut Kelleners/Gerold Pankl,1972-06-22,"1972 24 Hours NÃ¼rburgring, pole-position [93]"
 22.835 km,08:56.5,Racing,Porsche,Porsche 911S Kremer,John Fitzpatrick,1972-07-29,"1972 German GP ECGT NÃ¼rburgring TrophÃ¤e, fastest lap[94]"
 22.835 km,07:07.0,Racing,Ferrari,Ferrari 312B2,Jacky Ickx,1972-07-29,"1972 German Grand Prix, pole-position [95]"
@@ -428,7 +428,7 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 20.81 km,06:25.9,Racing,Porsche,Porsche 956-007 #2,Stefan Bellof,1983-05-29,"1000Â km NÃ¼rburgring official lap record, then crashed (teammate: Derek Bell)"
 20.81 km,07:24.3,Racing,BMW,BMW M1,Harald Grohs,1983-05-29,1000Â km NÃ¼rburgring Group B lap record[136]
 20.81 km,07:26.9,Racing,Alba,Alba AR2 Giannini,Carlo Facetti/Martino Finotto,1983-05-29,1000Â km NÃ¼rburgring Group CJ lap record [136]
-20.81 km,07:39.3,Racing,Van Diemen,Van Diemen-Ford,Mauricio Gugelmin,1983-01-01,Formula Ford lap record[133]
+20.81 km,07:39.3,Racing,Van_Diemen,Van_Diemen-Ford,Mauricio Gugelmin,1983-01-01,Formula Ford lap record[133]
 20.81 km,07:56.0,Racing,Jaguar,Jaguar XJ-S,Tom Walkinshaw,1983-07-09,ETCC 6h GP der Tourenwagen pole position [137]
 20.81 km,08:02.4,Racing,Jaguar,Jaguar XJ-S,Tom Walkinshaw,1983-07-10,ETCC 6h GP der Tourenwagen fastest lap[137]
 20.81 km,8:07,Racing,Rover,Rover Vitesse,Armin Hahne,1984-01-01,DTM touring car race lap record [136]
@@ -446,13 +446,13 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 20.81 km,7:29,Racing,Opel,Opel Astra OPC Turbo,Michael Funke,2011-05-07,"Rundstrecken Challenge NÃ¼rburgring, first 2000cc turbo under 7:30[146]"
 20.81 km,7:49,Racing,BMW,BMW M3 E46,Steve Jans,2011-05-07,"Rundstrecken Challenge NÃ¼rburgring, record for VLN-Serienwagen [146][147]"
 25.359 km,09:23.8,Racing,Ford,Ford Sierra Cosworth,Armin Hahne,1988-06-18,"1988 DTM 24 Stunden NÃ¼rburgring, pole position [148]"
-25.359 km,09:09.8,Racing,Mercedes-Benz,Mercedes 190E 2.5-16 Evo,Klaus Ludwig,1989-06-17,"1989 DTM 24 Stunden NÃ¼rburgring, pole position  [149]"
-25.359 km,09:05.4,Racing,Mercedes-Benz,Mercedes 190E 2.5-16 Evo 2,Klaus Ludwig,1990-06-16,"1990 DTM 24 Stunden NÃ¼rburgring, pole position [150]"
+25.359 km,09:09.8,Racing,Mercedes_Benz,Mercedes 190E 2.5-16 Evo,Klaus Ludwig,1989-06-17,"1989 DTM 24 Stunden NÃ¼rburgring, pole position  [149]"
+25.359 km,09:05.4,Racing,Mercedes_Benz,Mercedes 190E 2.5-16 Evo 2,Klaus Ludwig,1990-06-16,"1990 DTM 24 Stunden NÃ¼rburgring, pole position [150]"
 25.359 km,08:44.3,Racing,BMW,BMW M3 Sport Evolution,Johnny Cecotto,1992-06-17,"1992 DTM 24 Stunden NÃ¼rburgring, pole position [151]"
 25.359 km,08:46.9,Racing,BMW,BMW M3 Sport Evolution,Johnny Cecotto,1992-06-18,"1992 DTM 24 Stunden NÃ¼rburgring, fastest lap (race 2)[151]"
-25.359 km,08:45.5,Racing,Mercedes-Benz,Mercedes 190E AMG,Jorg van Ommen,1993-06-09,"1993 DTM GroÃŸer Preis der Tourenwagen, pole position [152]"
-25.359 km,08:47.7,Racing,Alfa Romeo ,Alfa Romeo 155 V6 TI,Nicola Larini,1993-06-10,"1993 DTM GroÃŸer Preis der Tourenwagen, fastest lap (heat 2) [153]"
-25.359 km,8:29,Racing,Mercedes-Benz,Mercedes 190E Evo II,Olaf Manthey,1994-10-08,"1994 VLN lap record for Tourenwagen, beaten 6 years later by 10 sec [154]"
+25.359 km,08:45.5,Racing,Mercedes_Benz,Mercedes 190E AMG,Jorg van Ommen,1993-06-09,"1993 DTM GroÃŸer Preis der Tourenwagen, pole position [152]"
+25.359 km,08:47.7,Racing,Alfa_Romeo ,Alfa_Romeo 155 V6 TI,Nicola Larini,1993-06-10,"1993 DTM GroÃŸer Preis der Tourenwagen, fastest lap (heat 2) [153]"
+25.359 km,8:29,Racing,Mercedes_Benz,Mercedes 190E Evo II,Olaf Manthey,1994-10-08,"1994 VLN lap record for Tourenwagen, beaten 6 years later by 10 sec [154]"
 25.359 km,09:23.1,Racing,BMW,BMW M3 3.0,Johannes Scheid,1996-01-01,1996 VLN lap description for a book[155] by 1996 24h winner
 25.359 km,08:12.4,Racing,Dodge,Dodge Viper GTS-R,Peter Zakowski/Hans-Jurgen Tiemann,1999-04-24,1999 VLN pole [156][157]
 25.359 km,8:48,Racing,Dodge,Dodge Viper GTS-R,Peter Zakowski/Hans-Jurgen Tiemann/Klaus Ludwig,1999-06-04,1999 24 Hours pole
@@ -483,7 +483,7 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 24.369 km,08:10.3,Racing,Porsche,Porsche 997 GT3-RSR,Romain Dumas/Marcel Tiemann/Arno Klasen,2008-07-05,2008 VLN season best pole normally aspirated cars[178]
 24.369 km,08:09.8,Racing,Porsche,Porsche 997 Turbo,Uwe Alzen,2008-10-11,2008 VLN season best pole [179]
 24.369 km,08:13.4,Racing,Porsche,Porsche 997 Turbo,Uwe Alzen/Jurgen Alzen,2008-10-11,2008 VLN season fastest lap[180]
-24.369 km,08:14.8,Racing,Aston Martin,Aston Martin DBRS9,Tomas Enge/Robert Lechner,2008-10-11,2008 VLN season fastest lap normally aspirated cars
+24.369 km,08:14.8,Racing,Aston_Martin,Aston_Martin DBRS9,Tomas Enge/Robert Lechner,2008-10-11,2008 VLN season fastest lap normally aspirated cars
 25.378 km,08:36.5,Racing,Ford ,Ford GT GT3,Dirk Adorf,2009-05-22,2009 24 Hours of NÃ¼rburgring pole
 25.378 km,08:36.8,Racing,Porsche,Porsche 997 GT3-RSR,Bernhard/Lieb/Dumas/Tiemann,2009-05-24,"2009 24 Hours fastest lap, new overall distance record 155 laps"
 24.369 km,08:09.7,Racing,Ford ,Ford GT GT3,Dirk Adorf,2009-06-27,2009 VLN season best pole [181]
@@ -497,7 +497,7 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 24.369 km,08:13.9,Racing,Audi,Audi R8 LMS,Frank Stippler/Hans-Joachim Stuck/Marc Basseng,2010-07-17,2010 VLN 33. RCM DMV Grenzlandrennen fastest lap [190]
 24.369 km,08:13.4,Racing,Porsche,Porsche 911 GT3 R,Timo Bernhard/Arno Klasen/Christian Hohenadel,2010-07-31,2010 VLN 6h ADAC Ruhr-Pokal-Rennen fastest lap [191]
 24.369 km,08:58.5,Racing,MINI,MINI 1.6 turbo,Markus Oestreich,2010-10-30,"2010 VLN, first lap under 9 min. for a 1600cc turbo FWD car [192]"
-24.369 km,08:13.7,Racing,Mercedes-Benz,Mercedes SLS GT3,Chris Mamerow/Armin Hahne,2011-04-30,2011 VLN 36. DMV 4-Stunden-Rennen pole
+24.369 km,08:13.7,Racing,Mercedes_Benz,Mercedes SLS GT3,Chris Mamerow/Armin Hahne,2011-04-30,2011 VLN 36. DMV 4-Stunden-Rennen pole
 24.369 km,08:19.4,Racing,Ferrari,Ferrari F458,Marco Seefried/Jamie Melo,2011-05-14,"2011 VLN 6 hour race, fastest lap and first win for Ferrari[193]"
 24.369 km,08:29.0,Racing,Volkswagen,Volkswagen Golf24,Thomas Mutsch/Franck Mailleux/Fredrik Ekblom,2011-05-14,"2011 VLN 6 hour race, sixth overall for the 2500cc turbo 4WD Golf [194]"
 25.378 km,08:23.8,Racing,Ferrari,Ferrari F458 Italia GT,Dominik Farnbacher,2011-06-23,2011 24 Hours NÃ¼rburgring pole [195]
@@ -512,7 +512,7 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 24.369 km,08:12.4,Racing,Audi,Audi R8 LMS ultra,Marc Basseng/Frank Stippler,2012-06-23,2012 VLN 43. Adenauer ADAC Rundstrecken-Trophy fastest lap (and win)
 24.369 km,08:05.3,Racing,Porsche,Porsche 911 GT3 R,Marc Lieb/Jochen Krumbach,2012-07-07,2012 VLN 52. ADAC Reinoldus-Langstreckenrennen pole
 24.369 km,08:10.5,Racing,Porsche,Porsche 911 GT3 R,Jochen Krumbach/Romain Dumas,2012-07-21,2012 VLN 35. RCM DMV Grenzlandrennen fastest lap
-24.369 km,08:07.7,Racing,Mercedes-Benz,Mercedes-Benz SLS AMG GT3,Thomas Jager/Alexander Roloff/Jan Seyffarth,2012-08-04,2012 VLN 6h ADAC Ruhr-Pokal-Rennen pole (and win[201])
+24.369 km,08:07.7,Racing,Mercedes_Benz,Mercedes_Benz SLS AMG GT3,Thomas Jager/Alexander Roloff/Jan Seyffarth,2012-08-04,2012 VLN 6h ADAC Ruhr-Pokal-Rennen pole (and win[201])
 24.369 km,08:11.3,Racing,Audi,Audi R8 LMS ultra,Frank Stippler/Rene Rast/Marc Basseng,2012-08-04,2012 VLN 6h ADAC Ruhr-Pokal-Rennen fastest lap
 24.369 km,08:09.2,Racing,Audi,Audi R8 LMS ultra,Frank Biela/Christian Hohenadel/Thomas Mutsch,2012-08-25,"2012 VLN 44. ADAC Barbarossapreis fastest lap,[202] race win, new VLN race lap record by Thomas Mutsch[203]"
 25.378 km,08:17.2,Racing,Audi,Audi R8 LMS ultra,Frank Stippler,2013-05-18,"2013 24 Hours NÃ¼rburgring pole, in Top40 qualifying[204]"
@@ -527,5 +527,5 @@ n/a,7:46,Special,Jaguar,Jaguar XJ220 Prototype,John Nielsen,1991-01-01,Car wasn'
 25.947 km,08:31.4,Racing,Citroen,Citroen C-Elysee WTCC,Yvan Muller,2015-05-16,"2015 FIA WTCC Race of Germany Race 2, fastest lap"
 25.378 km,08:19.7,Racing,Audi,Audi R8 LMS ultra,n/a,2015-01-01,"2015 24 Hours NÃ¼rburgring fastest lap,[216]"
 25.378 km,08:17.4,Racing,BMW,BMW Z4 GT3,n/a,2015-01-01,"2015 24 Hours NÃ¼rburgring pole, in Top30 qualifying[217]"
-25.378 km,08:14.5,Racing,Mercedes-Benz,Mercedes AMG GT3,n/a,2016-01-01,2016 24 Hours NÃ¼rburgring pole[218]
+25.378 km,08:14.5,Racing,Mercedes_Benz,Mercedes AMG GT3,n/a,2016-01-01,2016 24 Hours NÃ¼rburgring pole[218]
 25.378 km,08:09.1,Racing,Porsche,Porsche 911 GT3 R (991),Laurens Vanthoor/Romain Dumas/Kevin Estre,2018-05-11,2018 24 Hours NÃ¼rburgring pole[219][220][221]
