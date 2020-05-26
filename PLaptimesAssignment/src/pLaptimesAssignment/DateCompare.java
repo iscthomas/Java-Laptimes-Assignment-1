@@ -12,7 +12,7 @@ public class DateCompare implements Comparator<Lap>{
 			return 1;
 		if(d2.getDate()==null)
 			return -1;
-		return d1.calculateAge()-d2.calculateAge());
+		return d1.calcAge()-d2.calcAge();
 	}
 	
 

@@ -5,6 +5,9 @@ import java.awt.EventQueue;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Locale;
 
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -15,9 +18,20 @@ import javax.swing.border.EmptyBorder;
 import javax.swing.JTabbedPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
+
+import org.jfree.chart.*;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.axis.NumberTickUnit;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.data.general.DefaultPieDataset;
+import org.jfree.data.xy.XYSeries;
+import org.jfree.data.xy.XYSeriesCollection;
+
 import javax.swing.JScrollPane;
 import java.awt.Dimension;
 import java.awt.Color;
+import java.awt.Container;
 
 public class LapGUI extends JFrame implements ActionListener {
 
@@ -57,6 +71,7 @@ public class LapGUI extends JFrame implements ActionListener {
 	private JTextField textField_4;
 	private JTable table;
 	private JScrollPane scrollPane;
+	JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 	
 	//constructor
 	public LapGUI(ArrayList<Lap>laptimes) {
@@ -73,7 +88,6 @@ public class LapGUI extends JFrame implements ActionListener {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 		tabbedPane.setForeground(Color.WHITE);
 		tabbedPane.setBackground(Color.GRAY);
 		tabbedPane.setBounds(330, 30, 1130, 700);
@@ -89,12 +103,6 @@ public class LapGUI extends JFrame implements ActionListener {
 		textField.setBounds(10, 11, 86, 20);
 		panel_record.add(textField);
 		textField.setColumns(10);
-		
-		JPanel panel_graph = new JPanel();
-		panel_graph.setToolTipText("Graph");
-		panel_graph.setBackground(Color.GRAY);
-		tabbedPane.addTab("Graph", null, panel_graph, "Graph");
-		panel_graph.setLayout(null);
 		
 		textField_1 = new JTextField();
 		textField_1.setBounds(106, 11, 86, 20);
@@ -137,11 +145,13 @@ public class LapGUI extends JFrame implements ActionListener {
 		table.setModel(tm);
 		scrollPane.setViewportView(table);
 		drawTable();
+		manufacturerPie();
+		timeLine();
 	}
 	
 	public void drawTable() {
 		tm.setRowCount(0);
-		for (int i = 0; i < 531; i++) {
+		for (int i = 0; i < 511; i++) {
 			Object[] object = new Object[7];
 			object[0]= laptimes.get(i).getLength();
 			object[1]= laptimes.get(i).getTime();
@@ -153,10 +163,73 @@ public class LapGUI extends JFrame implements ActionListener {
 			tm.addRow(object);
 		}
 	}
+	
+	public void manufacturerPie() {
+		DefaultPieDataset data = new DefaultPieDataset();
+		//category data
+		for (Manufacturer manufacturer : Manufacturer.values()) {
+			int manCount = 0;
+			for (int i = 0; i < 511; i++) {
+				if (manufacturer == laptimes.get(i).getManufacturer()) {
+					manCount++;
+				}
+			}
+			//int manCount = Collections.frequency(laptimes, manufacturer);
+			data.setValue(manufacturer, manCount);
+		}
+		//create the chart
+		JFreeChart chart = ChartFactory.createPieChart("Number of Laptimes by Manufacturer", data, true, true, Locale.ENGLISH);
+		
+		//create and display a frame
+		ChartPanel piepanel = new ChartPanel(chart);
+		piepanel.setVisible(true);
+		
+		//add to my Tabbed Panel
+		tabbedPane.add("Manufacturer Graph", piepanel);
+	}
+	
+	private void timeLine() {
+		XYSeries data = new XYSeries("Times by Year Set");
+		//category data
+		for (int year = 1930; year < 2021; year++) {
+			int yearCount = 0;
+			for (int i = 0; i < 511; i++) {
+				if (year == laptimes.get(i).getDate().getYear()) {
+					yearCount++;
+				}
+			}
+			//System.out.println(yearCount);
+			data.add(yearCount, year);
+		}
+		
+		XYSeriesCollection dataset = new XYSeriesCollection();
+		dataset.addSeries(data);
+		
+		//create the chart
+		JFreeChart chart = ChartFactory.createXYLineChart("Times by Year Set", "Number of Times", "Year", dataset, PlotOrientation.HORIZONTAL, true, true, true);
+		XYPlot plot = chart.getXYPlot();
+		
+		//y axis
+		NumberAxis domain = (NumberAxis) plot.getDomainAxis();
+		domain.setRange(0, 50);
+		domain.setTickUnit(new NumberTickUnit(5));
+		domain.setVerticalTickLabels(true);
+		//x axis
+		NumberAxis range = (NumberAxis) plot.getRangeAxis();
+		range.setRange(1930, 2020);
+		range.setTickUnit(new NumberTickUnit(10));
+		
+		//create and display a frame
+		ChartPanel linepanel = new ChartPanel(chart);
+		linepanel.setVisible(true);
+		
+		//add to my Tabbed Panel
+		tabbedPane.add("Times Graph", linepanel);
+	}
 
 	@Override
 	public void actionPerformed(ActionEvent arg0) {
 		// TODO Auto-generated method stub
-		
+
 	}
 }
