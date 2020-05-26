@@ -6,6 +6,7 @@ import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collections;
 
 
 public class LapReader {
@@ -31,6 +32,8 @@ public class LapReader {
 				String[] fields = line.split(",");
 				length = fields[0];
 				time = fields[1];
+				//removes first character of time string if it is "0" for cleaner data output
+				time = time.startsWith("0") ? time.substring(1) : time; //https://stackoverflow.com/questions/4503656/java-removing-first-character-of-a-string
 				type = Type.valueOf(fields[2]);
 				manufacturer = Manufacturer.valueOf(fields[3]);
 				model = fields[4];
@@ -38,6 +41,7 @@ public class LapReader {
 				date = LocalDate.parse(fields[6], DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 				laptimes.add(new Lap(length, time, type, manufacturer, model, driver, date));
 			}
+			Collections.sort(laptimes);
 		}catch (IOException e)
 		{
 			System.out.println("There was a problem with the file");

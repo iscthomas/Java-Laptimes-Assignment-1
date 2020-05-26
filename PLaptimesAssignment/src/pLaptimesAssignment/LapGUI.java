@@ -17,6 +17,7 @@ import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.JScrollPane;
 import java.awt.Dimension;
+import java.awt.Color;
 
 public class LapGUI extends JFrame implements ActionListener {
 
@@ -60,51 +61,59 @@ public class LapGUI extends JFrame implements ActionListener {
 	//constructor
 	public LapGUI(ArrayList<Lap>laptimes) {
 		super("Laptimes");
+		setBackground(Color.WHITE);
 		
 		this.laptimes = laptimes;
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1200, 800);
+		setBounds(100, 100, 1500, 800);
 		contentPane = new JPanel();
+		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
 		JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
-		tabbedPane.setBounds(30, 30, 1100, 700);
+		tabbedPane.setForeground(Color.WHITE);
+		tabbedPane.setBackground(Color.GRAY);
+		tabbedPane.setBounds(330, 30, 1130, 700);
 		contentPane.add(tabbedPane);
 		
-		JPanel panel = new JPanel();
-		tabbedPane.addTab("Tab 1", null, panel, null);
-		panel.setLayout(null);
+		JPanel panel_record = new JPanel();
+		panel_record.setToolTipText("Record View");
+		panel_record.setBackground(Color.GRAY);
+		tabbedPane.addTab("Record View", null, panel_record, "Record View");
+		panel_record.setLayout(null);
 		
 		textField = new JTextField();
 		textField.setBounds(10, 11, 86, 20);
-		panel.add(textField);
+		panel_record.add(textField);
 		textField.setColumns(10);
 		
-		JPanel panel_2 = new JPanel();
-		tabbedPane.addTab("Tab 3", null, panel_2, null);
-		panel_2.setLayout(null);
+		JPanel panel_graph = new JPanel();
+		panel_graph.setToolTipText("Graph");
+		panel_graph.setBackground(Color.GRAY);
+		tabbedPane.addTab("Graph", null, panel_graph, "Graph");
+		panel_graph.setLayout(null);
 		
 		textField_1 = new JTextField();
 		textField_1.setBounds(106, 11, 86, 20);
-		panel.add(textField_1);
+		panel_record.add(textField_1);
 		textField_1.setColumns(10);
 		
 		textField_2 = new JTextField();
 		textField_2.setBounds(202, 11, 86, 20);
-		panel.add(textField_2);
+		panel_record.add(textField_2);
 		textField_2.setColumns(10);
 		
 		textField_3 = new JTextField();
 		textField_3.setBounds(298, 11, 86, 20);
-		panel.add(textField_3);
+		panel_record.add(textField_3);
 		textField_3.setColumns(10);
 		
 		textField_4 = new JTextField();
 		textField_4.setBounds(394, 11, 86, 20);
-		panel.add(textField_4);
+		panel_record.add(textField_4);
 		textField_4.setColumns(10);
 		
 		textField.setText(laptimes.get(0).getLength());
@@ -113,15 +122,18 @@ public class LapGUI extends JFrame implements ActionListener {
 		//textField_3.setText(laptimes.get(0).getManufacturer());
 		textField_4.setText(laptimes.get(0).getModel());
 		
-		JPanel panel_1 = new JPanel();
-		tabbedPane.addTab("Tab 2", null, panel_1, null);
-		panel_1.setLayout(null);
+		JPanel panel_table = new JPanel();
+		panel_table.setToolTipText("Table");
+		panel_table.setBackground(Color.GRAY);
+		tabbedPane.addTab("Table", null, panel_table, "Table");
+		panel_table.setLayout(null);
 		
 		scrollPane = new JScrollPane();
 		scrollPane.setBounds(10, 11, 1075, 650);
-		panel_1.add(scrollPane);
+		panel_table.add(scrollPane);
 		
 		table = new JTable();
+		table.setForeground(Color.BLACK);
 		table.setModel(tm);
 		scrollPane.setViewportView(table);
 		drawTable();

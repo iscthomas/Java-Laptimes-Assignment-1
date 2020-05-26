@@ -45,9 +45,11 @@ public class Lap implements Comparable<Lap>{
 	        }
 
 		@Override
-		public int compareTo(Lap o) {
-			// TODO Auto-generated method stub
-			return 0;
+		public int compareTo(Lap l1) {
+			if (time.equals(l1.getTime()))
+				return date.compareTo(l1.getDate());
+			else
+				return time.compareTo(l1.getTime());
 		}
 		
 	}
