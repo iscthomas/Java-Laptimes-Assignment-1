@@ -32,6 +32,12 @@ import javax.swing.JScrollPane;
 import java.awt.Dimension;
 import java.awt.Color;
 import java.awt.Container;
+import javax.swing.JTextPane;
+import java.awt.Font;
+import javax.swing.JRadioButton;
+import java.awt.Component;
+import java.awt.Rectangle;
+import javax.swing.ImageIcon;
 
 public class LapGUI extends JFrame implements ActionListener {
 
@@ -72,6 +78,7 @@ public class LapGUI extends JFrame implements ActionListener {
 	private JTable table;
 	private JScrollPane scrollPane;
 	JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+	private JPanel panel_1;
 	
 	//constructor
 	public LapGUI(ArrayList<Lap>laptimes) {
@@ -144,6 +151,76 @@ public class LapGUI extends JFrame implements ActionListener {
 		table.setForeground(Color.BLACK);
 		table.setModel(tm);
 		scrollPane.setViewportView(table);
+		
+		JPanel panel = new JPanel();
+		panel.setBackground(Color.LIGHT_GRAY);
+		panel.setBounds(15, 218, 300, 164);
+		contentPane.add(panel);
+		panel.setLayout(null);
+		
+		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Length");
+		rdbtnNewRadioButton_1.setToolTipText("Length");
+		rdbtnNewRadioButton_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnNewRadioButton_1.setBounds(6, 48, 131, 23);
+		panel.add(rdbtnNewRadioButton_1);
+		
+		JRadioButton rdbtnNewRadioButton = new JRadioButton("Type");
+		rdbtnNewRadioButton.setToolTipText("Type");
+		rdbtnNewRadioButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnNewRadioButton.setBounds(6, 100, 131, 23);
+		panel.add(rdbtnNewRadioButton);
+		
+		JRadioButton rdbtnNewRadioButton_2 = new JRadioButton("Time");
+		rdbtnNewRadioButton_2.setToolTipText("Time");
+		rdbtnNewRadioButton_2.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnNewRadioButton_2.setBounds(6, 74, 131, 23);
+		panel.add(rdbtnNewRadioButton_2);
+		
+		JRadioButton rdbtnNewRadioButton_3 = new JRadioButton("Manufacturer");
+		rdbtnNewRadioButton_3.setToolTipText("Manufacturer");
+		rdbtnNewRadioButton_3.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnNewRadioButton_3.setBounds(6, 126, 131, 23);
+		panel.add(rdbtnNewRadioButton_3);
+		
+		JRadioButton rdbtnTime = new JRadioButton("Time");
+		rdbtnTime.setToolTipText("Time");
+		rdbtnTime.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnTime.setBounds(151, 100, 131, 23);
+		panel.add(rdbtnTime);
+		
+		JRadioButton rdbtnNewRadioButton_1_1 = new JRadioButton("Model");
+		rdbtnNewRadioButton_1_1.setToolTipText("Model");
+		rdbtnNewRadioButton_1_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnNewRadioButton_1_1.setBounds(151, 48, 131, 23);
+		panel.add(rdbtnNewRadioButton_1_1);
+		
+		JRadioButton rdbtnNewRadioButton_2_1 = new JRadioButton("Driver");
+		rdbtnNewRadioButton_2_1.setToolTipText("Driver");
+		rdbtnNewRadioButton_2_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnNewRadioButton_2_1.setBounds(151, 74, 131, 23);
+		panel.add(rdbtnNewRadioButton_2_1);
+		
+		JTextPane txtpnTableSortingOptions = new JTextPane();
+		txtpnTableSortingOptions.setBounds(new Rectangle(10, 10, 0, 0));
+		txtpnTableSortingOptions.setBackground(Color.GRAY);
+		txtpnTableSortingOptions.setFont(new Font("Tahoma", Font.BOLD, 18));
+		txtpnTableSortingOptions.setText("Table Sorting Options");
+		txtpnTableSortingOptions.setBounds(0, 0, 300, 41);
+		panel.add(txtpnTableSortingOptions);
+		
+		panel_1 = new JPanel();
+		panel_1.setBackground(Color.LIGHT_GRAY);
+		panel_1.setBounds(15, 393, 300, 186);
+		contentPane.add(panel_1);
+		
+		JPanel panel_3 = new JPanel();
+		panel_3.setBounds(305, 113, -284, -99);
+		contentPane.add(panel_3);
+		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setIcon(new ImageIcon("D:\\OneDrive\\OneDrive - Otago Polytechnic\\BITY2\\IN610001 Programming 3\\Laptimes Assignment\\Java-Laptimes-Assignment-1\\image\\logo.png"));
+		lblNewLabel.setBounds(10, 11, 305, 196);
+		contentPane.add(lblNewLabel);
 		drawTable();
 		manufacturerPie();
 		timeLine();
