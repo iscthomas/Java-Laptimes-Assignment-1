@@ -41,7 +41,6 @@ public class LapReader {
 				date = LocalDate.parse(fields[6], DateTimeFormatter.ofPattern("yyyy-MM-dd"));
 				laptimes.add(new Lap(length, time, type, manufacturer, model, driver, date));
 			}
-			Collections.sort(laptimes);
 		}catch (IOException e)
 		{
 			System.out.println("There was a problem with the file");
@@ -49,7 +48,7 @@ public class LapReader {
 		}
 		for (Lap item:laptimes)
 		{
-			System.out.println(laptimes);
+			//System.out.println(laptimes);
 		}
 	}
 

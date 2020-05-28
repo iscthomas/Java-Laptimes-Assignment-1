@@ -6,7 +6,7 @@ import java.time.Period;
 
 public class LapUtilities <Lap> {
 
-	public int calcAge() {
+	public static int calcAge() {
 		int age = -1;
 		
 		if(getDate() != null)
@@ -35,5 +35,9 @@ public class LapUtilities <Lap> {
 		
 				
 		return length;
+	}
+	
+	public static int calcMaxAge() {
+		
 	}
 }

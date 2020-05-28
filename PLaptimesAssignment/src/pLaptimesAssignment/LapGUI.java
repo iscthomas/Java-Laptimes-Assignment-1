@@ -38,6 +38,7 @@ import javax.swing.JRadioButton;
 import java.awt.Component;
 import java.awt.Rectangle;
 import javax.swing.ImageIcon;
+import javax.swing.ButtonGroup;
 
 public class LapGUI extends JFrame implements ActionListener {
 
@@ -79,10 +80,12 @@ public class LapGUI extends JFrame implements ActionListener {
 	private JScrollPane scrollPane;
 	JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 	private JPanel panel_1;
+	private final ButtonGroup buttonGroup = new ButtonGroup();
 	
 	//constructor
 	public LapGUI(ArrayList<Lap>laptimes) {
 		super("Laptimes");
+		setTitle("Nurburgring Laptimes");
 		setBackground(Color.WHITE);
 		
 		this.laptimes = laptimes;
@@ -154,51 +157,101 @@ public class LapGUI extends JFrame implements ActionListener {
 		
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.LIGHT_GRAY);
-		panel.setBounds(15, 218, 300, 164);
+		panel.setBounds(15, 218, 300, 235);
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
-		JRadioButton rdbtnNewRadioButton_1 = new JRadioButton("Length");
-		rdbtnNewRadioButton_1.setToolTipText("Length");
-		rdbtnNewRadioButton_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnNewRadioButton_1.setBounds(6, 48, 131, 23);
-		panel.add(rdbtnNewRadioButton_1);
+		JRadioButton rdbtnLength = new JRadioButton("Length");
+		buttonGroup.add(rdbtnLength);
+		rdbtnLength.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes,new LengthCompare());
+				drawTable(); 
+			}
+		});
+		rdbtnLength.setToolTipText("Length");
+		rdbtnLength.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnLength.setBounds(6, 49, 131, 23);
+		panel.add(rdbtnLength);
 		
-		JRadioButton rdbtnNewRadioButton = new JRadioButton("Type");
-		rdbtnNewRadioButton.setToolTipText("Type");
-		rdbtnNewRadioButton.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnNewRadioButton.setBounds(6, 100, 131, 23);
-		panel.add(rdbtnNewRadioButton);
-		
-		JRadioButton rdbtnNewRadioButton_2 = new JRadioButton("Time");
-		rdbtnNewRadioButton_2.setToolTipText("Time");
-		rdbtnNewRadioButton_2.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnNewRadioButton_2.setBounds(6, 74, 131, 23);
-		panel.add(rdbtnNewRadioButton_2);
-		
-		JRadioButton rdbtnNewRadioButton_3 = new JRadioButton("Manufacturer");
-		rdbtnNewRadioButton_3.setToolTipText("Manufacturer");
-		rdbtnNewRadioButton_3.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnNewRadioButton_3.setBounds(6, 126, 131, 23);
-		panel.add(rdbtnNewRadioButton_3);
+		JRadioButton rdbtnType = new JRadioButton("Type");
+		buttonGroup.add(rdbtnType);
+		rdbtnType.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes,new TypeCompare());
+				drawTable();
+			}
+		});
+		rdbtnType.setToolTipText("Type");
+		rdbtnType.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnType.setBounds(6, 100, 131, 23);
+		panel.add(rdbtnType);
 		
 		JRadioButton rdbtnTime = new JRadioButton("Time");
+		buttonGroup.add(rdbtnTime);
+		rdbtnTime.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes);
+				drawTable();
+			}
+		});
+		rdbtnTime.setSelected(true);
 		rdbtnTime.setToolTipText("Time");
 		rdbtnTime.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnTime.setBounds(151, 100, 131, 23);
+		rdbtnTime.setBounds(6, 74, 131, 23);
 		panel.add(rdbtnTime);
 		
-		JRadioButton rdbtnNewRadioButton_1_1 = new JRadioButton("Model");
-		rdbtnNewRadioButton_1_1.setToolTipText("Model");
-		rdbtnNewRadioButton_1_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnNewRadioButton_1_1.setBounds(151, 48, 131, 23);
-		panel.add(rdbtnNewRadioButton_1_1);
+		JRadioButton rdbtnManufacturer = new JRadioButton("Manufacturer");
+		buttonGroup.add(rdbtnManufacturer);
+		rdbtnManufacturer.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes,new ManufacturerCompare());
+				drawTable();
+			}
+		});
+		rdbtnManufacturer.setToolTipText("Manufacturer");
+		rdbtnManufacturer.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnManufacturer.setBounds(6, 126, 131, 23);
+		panel.add(rdbtnManufacturer);
 		
-		JRadioButton rdbtnNewRadioButton_2_1 = new JRadioButton("Driver");
-		rdbtnNewRadioButton_2_1.setToolTipText("Driver");
-		rdbtnNewRadioButton_2_1.setFont(new Font("Tahoma", Font.PLAIN, 14));
-		rdbtnNewRadioButton_2_1.setBounds(151, 74, 131, 23);
-		panel.add(rdbtnNewRadioButton_2_1);
+		JRadioButton rdbtnDate = new JRadioButton("Date");
+		buttonGroup.add(rdbtnDate);
+		rdbtnDate.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes,new DateCompare());
+				drawTable();
+			}
+		});
+		rdbtnDate.setToolTipText("Date");
+		rdbtnDate.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnDate.setBounds(6, 204, 131, 23);
+		panel.add(rdbtnDate);
+		
+		JRadioButton rdbtnModel = new JRadioButton("Model");
+		buttonGroup.add(rdbtnModel);
+		rdbtnModel.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes,new ModelCompare());
+				drawTable();
+			}
+		});
+		rdbtnModel.setToolTipText("Model");
+		rdbtnModel.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnModel.setBounds(6, 152, 131, 23);
+		panel.add(rdbtnModel);
+		
+		JRadioButton rdbtnDriver = new JRadioButton("Driver");
+		buttonGroup.add(rdbtnDriver);
+		rdbtnDriver.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Collections.sort(laptimes,new DriverCompare());
+				drawTable();
+			}
+		});
+		rdbtnDriver.setToolTipText("Driver");
+		rdbtnDriver.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		rdbtnDriver.setBounds(6, 178, 131, 23);
+		panel.add(rdbtnDriver);
 		
 		JTextPane txtpnTableSortingOptions = new JTextPane();
 		txtpnTableSortingOptions.setBounds(new Rectangle(10, 10, 0, 0));
@@ -210,15 +263,15 @@ public class LapGUI extends JFrame implements ActionListener {
 		
 		panel_1 = new JPanel();
 		panel_1.setBackground(Color.LIGHT_GRAY);
-		panel_1.setBounds(15, 393, 300, 186);
+		panel_1.setBounds(15, 544, 300, 186);
 		contentPane.add(panel_1);
 		
 		JPanel panel_3 = new JPanel();
 		panel_3.setBounds(305, 113, -284, -99);
 		contentPane.add(panel_3);
 		
-		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon("D:\\OneDrive\\OneDrive - Otago Polytechnic\\BITY2\\IN610001 Programming 3\\Laptimes Assignment\\Java-Laptimes-Assignment-1\\image\\logo.png"));
+		JLabel lblNewLabel = new JLabel("Logo");
+		lblNewLabel.setIcon(new ImageIcon("logo.png"));
 		lblNewLabel.setBounds(10, 11, 305, 196);
 		contentPane.add(lblNewLabel);
 		drawTable();

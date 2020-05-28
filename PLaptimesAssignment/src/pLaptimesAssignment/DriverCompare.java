@@ -2,7 +2,7 @@ package pLaptimesAssignment;
 
 import java.util.Comparator;
 
-public class DateCompare  implements Comparator<Lap> {
+public class DriverCompare  implements Comparator<Lap> {
 
 	@Override
 	public int compare(Lap o1, Lap o2) {
