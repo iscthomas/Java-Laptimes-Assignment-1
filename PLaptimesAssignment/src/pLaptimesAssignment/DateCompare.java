@@ -2,7 +2,7 @@ package pLaptimesAssignment;
 
 import java.util.Comparator;
 
-public class DateCompare implements Comparator<Lap>{
+public class DateCompare  implements Comparator<Lap> {
 
 	@Override
 	public int compare(Lap d1, Lap d2) {
@@ -12,8 +12,7 @@ public class DateCompare implements Comparator<Lap>{
 			return 1;
 		if(d2.getDate()==null)
 			return -1;
-		return d1.calcAge()-d2.calcAge();
+		return d1.getDate().compareTo(d2.getDate());
 	}
-	
 
 }

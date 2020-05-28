@@ -12,7 +12,7 @@ public class TypeCompare implements Comparator<Lap> {
 			return 1;
 		if(t2.getType()==null)
 			return -1;
-		return t1.getType().compareTo(t1.getType());
+		return t1.getType().compareTo(t2.getType());
 	}
 
 }

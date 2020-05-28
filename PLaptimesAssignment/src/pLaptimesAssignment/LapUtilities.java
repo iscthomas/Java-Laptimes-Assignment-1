@@ -4,36 +4,33 @@ import java.time.Duration;
 import java.time.LocalDate;
 import java.time.Period;
 
-public class LapUtilities <Lap> {
+public class LapUtilities<Lap> {
 
-	public int calcAge() {
+	public static int calcAge() {
 		int age = -1;
-		
-		if(getDate() != null)
-		{
+
+		if (getDate() != null) {
 			LocalDate currentDate = LocalDate.now();
 			age = Period.between(date, currentDate).getYears();
 		}
 		return age;
 	}
-	
-	public int calcTime() {
-		int time = -1;
-		
-		String s = "46:23:12";
-		String[] values = s.split(":");
-		// get the hours, minutes and seconds value and add it to the duration
-		Duration duration = Duration.ofHours(Integer.parseInt(values[0]));
-		duration = duration.plusMinutes(Integer.parseInt(values[1]));
-		duration = duration.plusSeconds(Integer.parseInt(values[2]));
-		return time;
+
+	public int calcManufacturer() {
+		for (Manufacturer manufacturer : Manufacturer.values()) {
+			int manCount = 0;
+			for (int i = 0; i < 511; i++) {
+				if (manufacturer == laptimes.get(i).getManufacturer()) {
+					manCount++;
+				}
+			}
+		}
 	}
-	
-	public int calcLength() {
+
+	public int calcType() {
 		int length = -1;
-				
-		
-				
+
 		return length;
 	}
+
 }

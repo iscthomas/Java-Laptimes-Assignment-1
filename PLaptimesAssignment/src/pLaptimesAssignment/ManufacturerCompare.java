@@ -12,7 +12,7 @@ public class ManufacturerCompare implements Comparator<Lap> {
 			return 1;
 		if(l2.getManufacturer()==null)
 			return -1;
-		return l1.getManufacturer().compareTo(l1.getManufacturer());
+		return l1.getManufacturer().compareTo(l2.getManufacturer());
 	}
 
 }
