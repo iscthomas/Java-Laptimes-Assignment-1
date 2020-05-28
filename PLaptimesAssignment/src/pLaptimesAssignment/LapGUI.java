@@ -39,8 +39,11 @@ import java.awt.Component;
 import java.awt.Rectangle;
 import javax.swing.ImageIcon;
 import javax.swing.ButtonGroup;
+<<<<<<< HEAD
 import javax.swing.SwingConstants;
 import java.awt.Toolkit;
+=======
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 
 public class LapGUI extends JFrame implements ActionListener {
 
@@ -81,15 +84,23 @@ public class LapGUI extends JFrame implements ActionListener {
 	private JTable table;
 	private JScrollPane scrollPane;
 	JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
+<<<<<<< HEAD
 	private final ButtonGroup buttonGroup = new ButtonGroup();
 	private JTextField textField_5;
 	private JTextField textField_6;
+=======
+	private JPanel panel_1;
+	private final ButtonGroup buttonGroup = new ButtonGroup();
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 	
 	//constructor
 	public LapGUI(ArrayList<Lap>laptimes) {
 		super("Laptimes");
+<<<<<<< HEAD
 		setForeground(Color.DARK_GRAY);
 		setIconImage(Toolkit.getDefaultToolkit().getImage("logo.ico"));
+=======
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		setTitle("Nurburgring Laptimes");
 		setBackground(Color.WHITE);
 		
@@ -125,7 +136,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		
 		JPanel panel = new JPanel();
 		panel.setBackground(Color.LIGHT_GRAY);
+<<<<<<< HEAD
 		panel.setBounds(64, 250, 201, 235);
+=======
+		panel.setBounds(15, 218, 300, 235);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		contentPane.add(panel);
 		panel.setLayout(null);
 		
@@ -139,7 +154,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		});
 		rdbtnLength.setToolTipText("Length");
 		rdbtnLength.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnLength.setBounds(31, 48, 131, 23);
+=======
+		rdbtnLength.setBounds(6, 49, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnLength);
 		
 		JRadioButton rdbtnType = new JRadioButton("Type");
@@ -152,7 +171,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		});
 		rdbtnType.setToolTipText("Type");
 		rdbtnType.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnType.setBounds(31, 99, 131, 23);
+=======
+		rdbtnType.setBounds(6, 100, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnType);
 		
 		JRadioButton rdbtnTime = new JRadioButton("Time");
@@ -166,7 +189,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		rdbtnTime.setSelected(true);
 		rdbtnTime.setToolTipText("Time");
 		rdbtnTime.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnTime.setBounds(31, 73, 131, 23);
+=======
+		rdbtnTime.setBounds(6, 74, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnTime);
 		
 		JRadioButton rdbtnManufacturer = new JRadioButton("Manufacturer");
@@ -179,7 +206,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		});
 		rdbtnManufacturer.setToolTipText("Manufacturer");
 		rdbtnManufacturer.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnManufacturer.setBounds(31, 125, 131, 23);
+=======
+		rdbtnManufacturer.setBounds(6, 126, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnManufacturer);
 		
 		JRadioButton rdbtnDate = new JRadioButton("Date");
@@ -192,7 +223,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		});
 		rdbtnDate.setToolTipText("Date");
 		rdbtnDate.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnDate.setBounds(31, 203, 131, 23);
+=======
+		rdbtnDate.setBounds(6, 204, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnDate);
 		
 		JRadioButton rdbtnModel = new JRadioButton("Model");
@@ -205,7 +240,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		});
 		rdbtnModel.setToolTipText("Model");
 		rdbtnModel.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnModel.setBounds(31, 151, 131, 23);
+=======
+		rdbtnModel.setBounds(6, 152, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnModel);
 		
 		JRadioButton rdbtnDriver = new JRadioButton("Driver");
@@ -218,7 +257,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		});
 		rdbtnDriver.setToolTipText("Driver");
 		rdbtnDriver.setFont(new Font("Tahoma", Font.PLAIN, 14));
+<<<<<<< HEAD
 		rdbtnDriver.setBounds(31, 177, 131, 23);
+=======
+		rdbtnDriver.setBounds(6, 178, 131, 23);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		panel.add(rdbtnDriver);
 		
 		JTextPane txtpnTableSortingOptions = new JTextPane();
@@ -229,13 +272,25 @@ public class LapGUI extends JFrame implements ActionListener {
 		txtpnTableSortingOptions.setBounds(0, 0, 204, 41);
 		panel.add(txtpnTableSortingOptions);
 		
+<<<<<<< HEAD
+=======
+		panel_1 = new JPanel();
+		panel_1.setBackground(Color.LIGHT_GRAY);
+		panel_1.setBounds(15, 544, 300, 186);
+		contentPane.add(panel_1);
+		
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		JPanel panel_3 = new JPanel();
 		panel_3.setBounds(305, 113, -284, -99);
 		contentPane.add(panel_3);
 		
 		JLabel lblNewLabel = new JLabel("Logo");
 		lblNewLabel.setIcon(new ImageIcon("logo.png"));
+<<<<<<< HEAD
 		lblNewLabel.setBounds(10, 23, 305, 196);
+=======
+		lblNewLabel.setBounds(10, 11, 305, 196);
+>>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 		contentPane.add(lblNewLabel);
 		drawTable();
 		manufacturerPie();
