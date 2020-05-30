@@ -32,12 +32,8 @@ public class LapUtilities<Lap> {
 
 		return length;
 	}
-<<<<<<< HEAD
 
-=======
-	
 	public static int calcMaxAge() {
-		
+
 	}
->>>>>>> 48069d4be5aadc36a61c59e579386f58518fa16e
 }
