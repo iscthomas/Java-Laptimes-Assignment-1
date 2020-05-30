@@ -16,6 +16,7 @@ public class LapReader {
 	public LapReader() {
 		
 	}
+
 	public static void load(ArrayList<Lap> laptimes) {
 		String length;
 		String time;

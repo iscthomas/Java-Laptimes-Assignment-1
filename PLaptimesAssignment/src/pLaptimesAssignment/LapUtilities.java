@@ -1,39 +1,41 @@
 package pLaptimesAssignment;
 
-import java.time.Duration;
 import java.time.LocalDate;
 import java.time.Period;
+import java.util.ArrayList;
 
-public class LapUtilities<Lap> {
+public class LapUtilities {
 
-	public static int calcAge() {
+	public static int calcAge(ArrayList<Lap> laptimes) {
 		int age = -1;
-
-		if (getDate() != null) {
+		for (int i = 0; i < laptimes.size(); i++) {
 			LocalDate currentDate = LocalDate.now();
-			age = Period.between(date, currentDate).getYears();
+			age = Period.between(laptimes.get(i).getDate(), currentDate).getYears();
 		}
 		return age;
 	}
 
-	public int calcManufacturer() {
+	public static int calcManufacturer(ArrayList<Lap> laptimes) {
+		int manCount = 0;
 		for (Manufacturer manufacturer : Manufacturer.values()) {
-			int manCount = 0;
-			for (int i = 0; i < 511; i++) {
+			for (int i = 0; i < laptimes.size(); i++) {
 				if (manufacturer == laptimes.get(i).getManufacturer()) {
 					manCount++;
 				}
 			}
 		}
+		return manCount;
 	}
 
-	public int calcType() {
-		int length = -1;
-
-		return length;
-	}
-
-	public static int calcMaxAge() {
-
+	public static int calcType(ArrayList<Lap> laptimes) {
+		int typeCount = 0;
+		for (Type type : Type.values()) {
+			for (int i = 0; i < laptimes.size(); i++) {
+				if (type == laptimes.get(i).getType()) {
+					typeCount++;
+				}
+			}
+		}
+		return typeCount;
 	}
 }
