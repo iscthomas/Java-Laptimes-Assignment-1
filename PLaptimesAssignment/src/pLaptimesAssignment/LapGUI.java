@@ -38,6 +38,7 @@ import javax.swing.JRadioButton;
 import java.awt.Component;
 import java.awt.Rectangle;
 import javax.swing.ImageIcon;
+import javax.swing.AbstractButton;
 import javax.swing.ButtonGroup;
 import javax.swing.SwingConstants;
 import java.awt.Toolkit;
@@ -62,8 +63,12 @@ public class LapGUI extends JFrame implements ActionListener {
 	private JTextPane tType;
 	private JTextPane tMan;
 	private JTextPane tModel;
+	private JTextPane tAge;
+	private JTextPane tTypeNum;
+	private JTextPane tManNum;
 	private JTable table;
 	private JScrollPane scrollPane;
+	private JLabel lblManPic;
 	JTabbedPane tabbedPane = new JTabbedPane(JTabbedPane.TOP);
 	private JTextPane tDriver;
 	private JTextPane tDate;
@@ -240,6 +245,7 @@ public class LapGUI extends JFrame implements ActionListener {
 		manufacturerPie();
 		timeLine();
 		recordView();
+		execCalcs();
 	}
 
 	public void drawTable() {
@@ -316,6 +322,11 @@ public class LapGUI extends JFrame implements ActionListener {
 		tDate.setBounds(965, 24, 150, 25);
 		panel_record.add(tDate);
 
+		tAge = new JTextPane();
+		tAge.setToolTipText("Age of the Record");
+		tAge.setBounds(965, 99, 150, 25);
+		panel_record.add(tAge);
+
 		JLabel lblLength = new JLabel("Length");
 		lblLength.setHorizontalAlignment(SwingConstants.CENTER);
 		lblLength.setFont(new Font("Tahoma", Font.BOLD, 12));
@@ -391,6 +402,7 @@ public class LapGUI extends JFrame implements ActionListener {
 					count--;
 				}
 				recordView();
+				execCalcs();
 			}
 		});
 		btnPrevious.setToolTipText("Previous");
@@ -403,6 +415,7 @@ public class LapGUI extends JFrame implements ActionListener {
 			public void mouseClicked(MouseEvent arg0) {
 				count = 0;
 				recordView();
+				execCalcs();
 			}
 		});
 		btnFirst.setToolTipText("First");
@@ -419,6 +432,7 @@ public class LapGUI extends JFrame implements ActionListener {
 					count++;
 				}
 				recordView();
+				execCalcs();
 			}
 		});
 		btnNext.setToolTipText("Next");
@@ -431,46 +445,35 @@ public class LapGUI extends JFrame implements ActionListener {
 			public void mouseClicked(MouseEvent arg0) {
 				count = laptimes.size() - 1;
 				recordView();
+				execCalcs();
 			}
 		});
 		btnLast.setToolTipText("Last");
 		btnLast.setBounds(165, 99, 89, 23);
 		panel_record.add(btnLast);
 
-		JTextPane tTypeNum = new JTextPane();
-		tTypeNum.setText((String) null);
+		tTypeNum = new JTextPane();
+		tTypeNum.setToolTipText("Occurances of Type");
+		tTypeNum.setText("Occurances");
 		tTypeNum.setBounds(325, 99, 150, 25);
 		panel_record.add(tTypeNum);
 
-		JTextPane tManNum = new JTextPane();
-		tManNum.setText((String) null);
+		tManNum = new JTextPane();
+		tManNum.setToolTipText("Occurances of this Manufacturer");
+		tManNum.setText("Ocurrances");
 		tManNum.setBounds(485, 99, 150, 25);
 		panel_record.add(tManNum);
 
-		JTextPane tDateAge = new JTextPane();
-		tDateAge.setText((String) null);
-		tDateAge.setBounds(965, 99, 150, 25);
-		panel_record.add(tDateAge);
-
-		JLabel lblTypeNum = new JLabel("Occurances");
+		JLabel lblTypeNum = new JLabel("Occurances of Type");
 		lblTypeNum.setToolTipText("Occurances of Type");
 		lblTypeNum.setHorizontalAlignment(SwingConstants.CENTER);
 		lblTypeNum.setForeground(Color.WHITE);
 		lblTypeNum.setFont(new Font("Tahoma", Font.BOLD, 12));
 		lblTypeNum.setBackground(Color.WHITE);
-		lblTypeNum.setBounds(325, 75, 150, 25);
+		lblTypeNum.setBounds(325, 68, 127, 32);
 		panel_record.add(lblTypeNum);
 
-		JLabel lblManNum = new JLabel("Occurances");
-		lblManNum.setToolTipText("Occurances of Manufacturer");
-		lblManNum.setHorizontalAlignment(SwingConstants.CENTER);
-		lblManNum.setForeground(Color.WHITE);
-		lblManNum.setFont(new Font("Tahoma", Font.BOLD, 12));
-		lblManNum.setBackground(Color.WHITE);
-		lblManNum.setBounds(485, 75, 150, 25);
-		panel_record.add(lblManNum);
-
-		JLabel lblDateAge = new JLabel("Age");
+		JLabel lblDateAge = new JLabel("Age of the Record");
 		lblDateAge.setToolTipText("Age of this Record");
 		lblDateAge.setHorizontalAlignment(SwingConstants.CENTER);
 		lblDateAge.setForeground(Color.WHITE);
@@ -478,69 +481,79 @@ public class LapGUI extends JFrame implements ActionListener {
 		lblDateAge.setBackground(Color.WHITE);
 		lblDateAge.setBounds(965, 75, 150, 25);
 		panel_record.add(lblDateAge);
-		
+
 		tSearch = new JTextField();
 		tSearch.setBounds(325, 133, 211, 25);
 		panel_record.add(tSearch);
 		tSearch.setColumns(10);
-		
+
 		JButton btnSearch = new JButton("Search");
 		btnSearch.addMouseListener(new MouseAdapter() {
 			@Override
 			public void mouseClicked(MouseEvent e) {
 				searchResult();
+				execCalcs();
 			}
 		});
 		btnSearch.setToolTipText("Execute a Search");
 		btnSearch.setBounds(546, 133, 89, 25);
 		panel_record.add(btnSearch);
-
-
+		
+		lblManPic = new JLabel("ManPic");
+		lblManPic.setToolTipText("Manufacturer Image");
+		lblManPic.setBounds(343, 250, 400, 400);
+		panel_record.add(lblManPic);
+		
+		JLabel lblOccurancesOfManufacturer = new JLabel("Occurances of Manufacturer");
+		lblOccurancesOfManufacturer.setToolTipText("Occurances of Manufacturer");
+		lblOccurancesOfManufacturer.setHorizontalAlignment(SwingConstants.CENTER);
+		lblOccurancesOfManufacturer.setForeground(Color.WHITE);
+		lblOccurancesOfManufacturer.setFont(new Font("Tahoma", Font.BOLD, 12));
+		lblOccurancesOfManufacturer.setBackground(Color.WHITE);
+		lblOccurancesOfManufacturer.setBounds(469, 68, 188, 32);
+		panel_record.add(lblOccurancesOfManufacturer);
+		
+		
 
 		// add to my Tabbed Panel
 		tabbedPane.add("Manufacturer Graph", piepanel);
 	}
+
 	private void searchResult() {
 		int i;
 		for (i = 0; i < laptimes.size(); i++) {
 			if (laptimes.get(i).getLength().contains(tSearch.getText())) {
-				System.out.print("found");
 				Collections.sort(laptimes, new LengthCompare());
 				count = i;
 			}
 			if (laptimes.get(i).getTime().contains(tSearch.getText())) {
-				System.out.print("found");
 				Collections.sort(laptimes);
 				count = i;
 			}
 			if (laptimes.get(i).getType().toString().contains(tSearch.getText())) {
 				Collections.sort(laptimes, new TypeCompare());
-				System.out.print("found");
 				count = i;
 			}
 			if (laptimes.get(i).getManufacturer().toString().contains(tSearch.getText())) {
 				Collections.sort(laptimes, new ManufacturerCompare());
-				System.out.print("found");
 				count = i;
 			}
 			if (laptimes.get(i).getModel().contains(tSearch.getText())) {
 				Collections.sort(laptimes, new ModelCompare());
-				System.out.print("found");
 				count = i;
 			}
 			if (laptimes.get(i).getDriver().contains(tSearch.getText())) {
 				Collections.sort(laptimes, new DriverCompare());
-				System.out.print("found");
 				count = i;
 			}
 			if (laptimes.get(i).getDate().toString().contains(tSearch.getText())) {
 				Collections.sort(laptimes, new DateCompare());
-				System.out.print("found");
+
 				count = i;
 			}
 			recordView();
 		}
-	
+
 	}
 
 	// set data to be displayed in record view
@@ -552,6 +565,14 @@ public class LapGUI extends JFrame implements ActionListener {
 		tModel.setText(laptimes.get(count).getModel());
 		tDriver.setText(laptimes.get(count).getDriver());
 		tDate.setText(laptimes.get(count).getDate().toString());
+
+		lblManPic.setIcon(new ImageIcon(laptimes.get(count).getManufacturer().toString() + ".png"));
+	}
+
+	private void execCalcs() {
+		tAge.setText("Age");
+		tTypeNum.setText(LapUtilities.calcType(laptimes, laptimes.get(count).getType()));
+		tManNum.setText(LapUtilities.calcManufacturer(laptimes, laptimes.get(count).getManufacturer()));
 	}
 
 	// create timeline graph

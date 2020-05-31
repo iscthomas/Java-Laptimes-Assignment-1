@@ -6,35 +6,32 @@ import java.util.ArrayList;
 
 public class LapUtilities {
 
-	public static int calcAge(ArrayList<Lap> laptimes) {
+	public static String calcAge(ArrayList<Lap> laptimes, LocalDate date) {
 		int age = -1;
 		LocalDate currentDate = LocalDate.now();
-		age = Period.between(Date,  currentDate).getYears();
-		return age;
+		age = Period.between(date,  currentDate).getYears();
+		return Integer.toString(age);
 		}
 
-	public static int calcManufacturer(ArrayList<Lap> laptimes) {
-		int manCount = 0;
-		for (Manufacturer manufacturer : Manufacturer.values()) {
-			for (int i = 0; i < laptimes.size(); i++) {
-				if (manufacturer == laptimes.get(i).getManufacturer()) {
-					manCount++;
-				}
-			}
-		}
-		return manCount;
+	public static String calcType(ArrayList<Lap> laptimes, Type type) {
+	    int typeCount = 0;
+	    
+	    for (Lap lap : laptimes) {
+	        if (lap.getType() == type) {
+	            typeCount++;
+	        }
+	    }
+	    return Integer.toString(typeCount);
 	}
 
-	public static int calcType(ArrayList<Lap> laptimes, String text) {
-		int typeCount = 0;
-		Type type = Type.valueOf(text);
-		for (Type type : Type.values()) {
-			for (int i = 0; i < laptimes.size(); i++) {
-				if (type == laptimes.get(i).getType()) {
-					typeCount++;
-				}
-			}
-		}
-		return typeCount;
+	public static String calcManufacturer(ArrayList<Lap> laptimes, Manufacturer manufacturer) {
+	    int typeCount = 0;
+	    
+	    for (Lap lap : laptimes) {
+	        if (lap.getManufacturer() == manufacturer) {
+	            typeCount++;
+	        }
+	    }
+	    return Integer.toString(typeCount);
 	}
 }
