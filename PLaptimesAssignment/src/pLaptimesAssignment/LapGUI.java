@@ -79,7 +79,7 @@ public class LapGUI extends JFrame implements ActionListener {
 	public LapGUI(ArrayList<Lap> laptimes) {
 		super("Laptimes");
 		setForeground(Color.DARK_GRAY);
-		setIconImage(Toolkit.getDefaultToolkit().getImage("logo.ico"));
+		setIconImage(Toolkit.getDefaultToolkit().getImage("image/logo.ico"));
 		setTitle("Nurburgring Laptimes");
 		setBackground(Color.WHITE);
 
@@ -224,7 +224,7 @@ public class LapGUI extends JFrame implements ActionListener {
 		contentPane.add(logopanel);
 
 		JLabel lblLogo = new JLabel("Logo");
-		lblLogo.setIcon(new ImageIcon("logo.png"));
+		lblLogo.setIcon(new ImageIcon("image/logo.png"));
 		lblLogo.setBounds(10, 23, 305, 196);
 		lblLogo.setBounds(10, 11, 305, 196);
 		contentPane.add(lblLogo);
@@ -566,7 +566,7 @@ public class LapGUI extends JFrame implements ActionListener {
 		tDriver.setText(laptimes.get(count).getDriver());
 		tDate.setText(laptimes.get(count).getDate().toString());
 
-		lblManPic.setIcon(new ImageIcon(laptimes.get(count).getManufacturer().toString() + ".png"));
+		lblManPic.setIcon(new ImageIcon("image/" + laptimes.get(count).getManufacturer().toString() + ".png"));
 	}
 
 	private void execCalcs() {
