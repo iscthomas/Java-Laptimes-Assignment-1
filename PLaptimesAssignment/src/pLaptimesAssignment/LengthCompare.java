@@ -2,6 +2,13 @@ package pLaptimesAssignment;
 
 import java.util.Comparator;
 
+/**
+ * @author Isaac Thomas
+ * @date 1/6/2020 The LengthCompare class is used by the program to compare the
+ *       track length in the laptimes array to sort the data by track length
+ *       from shortest to longest.
+ */
+
 public class LengthCompare implements Comparator<Lap> {
 	@Override
 

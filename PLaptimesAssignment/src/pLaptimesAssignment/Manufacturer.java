@@ -1,5 +1,12 @@
 package pLaptimesAssignment;
 
+/**
+ * @author Isaac Thomas
+ * @date 1/6/2020
+ * The Manufacturer enum is used by the program to store each manufacturer used 
+ * in the dataset, and prevents un-needed excessive string usage for repeated data.
+ */
+
 public enum Manufacturer {
 	Alba,
 	Alfa_Romeo,

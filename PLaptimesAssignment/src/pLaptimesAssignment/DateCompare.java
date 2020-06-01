@@ -2,6 +2,11 @@ package pLaptimesAssignment;
 
 import java.util.Comparator;
 
+/**
+ * @author Isaac Thomas
+ * @date 1/6/2020 The DateCompare class is used by the program to compare dates
+ *       in the laptimes array to sort the data by date from oldest to newest.
+ */
 public class DateCompare implements Comparator<Lap> {
 
 	@Override

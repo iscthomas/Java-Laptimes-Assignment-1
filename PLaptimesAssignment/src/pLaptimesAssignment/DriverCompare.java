@@ -2,6 +2,12 @@ package pLaptimesAssignment;
 
 import java.util.Comparator;
 
+/**
+ * @author Isaac Thomas
+ * @date 1/6/2020 The DriverCompare class is used by the program to compare
+ *       drivers in the laptimes array to sort the data alphabetically by driver
+ *       name.
+ */
 public class DriverCompare implements Comparator<Lap> {
 
 	@Override

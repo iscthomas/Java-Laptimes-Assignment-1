@@ -2,6 +2,12 @@ package pLaptimesAssignment;
 
 import java.util.Comparator;
 
+/**
+ * @author Isaac Thomas
+ * @date 1/6/2020 The ManufacturerCompare class is used by the program to
+ *       compare Manufacturers in the laptimes array to sort the data by
+ *       manufacturer alphabetically.
+ */
 public class ManufacturerCompare implements Comparator<Lap> {
 
 	@Override
